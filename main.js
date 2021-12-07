@@ -42,16 +42,16 @@ nocache('../message/help.js', module => console.log(color('[WATCH]', 'cyan'), co
     const starts = async (bosco = new WAConnection()) => {
     bosco.version = [3,3234,9]
 	bosco.logger.level = 'warn'
-	console.log(color(figlet.textSync('KRIZ SER OFC', {
+	console.log(color(figlet.textSync('𝙻𝚎𝚟𝚒 𝚜𝚎𝚛 𝚘𝚏𝚌', {
 		font: 'Standard',
 		horizontalLayout: 'default',
 		vertivalLayout: 'default',
 		width: 80,
 		whitespaceBreak: false
 	}), 'yellow'))
-	console.log(color('[BELCO ]', 'cyan'), color('WELCOME', 'white'))
+	console.log(color('[LEVI ]', 'cyan'), color('WELCOME', 'white'))
 	console.log(color('[SER]', 'cyan'), color('BOT RUNNING', 'yellow'))
-	bosco.browserDescription = ["BELCO  SER OFC - [BELCO -SER]", "edge", "3.0.0"];
+	bosco.browserDescription = ["LEVI SER OFC  - [LEVI -SER]", "edge", "3.0.0"];
 
 	// Menunggu QR
 	bosco.on('qr', () => {
@@ -152,7 +152,7 @@ nocache('../message/help.js', module => console.log(color('[WATCH]', 'cyan'), co
 
     bosco.on('group-update', async (anu) => {
     falfa = { key: {fromMe: false,participant: "0@s.whatsapp.net",
-   remoteJid: "0@s.whatsapp.net"},message: {"groupInviteMessage": {"groupJid": "6288213840883-1616169743@g.us","inviteCode": "mememteeeekkeke","groupName": "Alphabot", "caption": `♡︎ 𝑩𝑬𝑳𝑪𝑶 - 𝑺𝑬𝑹 ♡︎`, 'jpegThumbnail': fs.readFileSync(`ds.jpg`)}}}
+   remoteJid: "0@s.whatsapp.net"},message: {"groupInviteMessage": {"groupJid": "6288213840883-1616169743@g.us","inviteCode": "mememteeeekkeke","groupName": "Alphabot", "caption": `❦︎ 𝙻𝙴𝚅𝙸 - 𝚂𝙴𝚁 ❦︎`, 'jpegThumbnail': fs.readFileSync(`ds.jpg`)}}}
     metdata = await bosco.groupMetadata(anu.jid)
     if(anu.announce == 'false'){
     teks = `*[ ❣️𝙶𝚁𝙾𝚄𝙿 𝙾𝙿𝙴𝙽𝙴𝙳❣️ ]*\n`
