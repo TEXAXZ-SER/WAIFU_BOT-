@@ -1349,7 +1349,7 @@ const btnbc = {
 }
 await bosco.sendMessage(_.jid, btnbc, MessageType.buttonsMessage, {quoted: ftrol})
 						}
-						reply(`sᴜᴄᴄᴜss ʙʀᴏᴀᴅᴄᴀsᴛ sᴇɴᴅᴇᴅ ᴀʟʟ ɢʀᴏᴜᴘs...✔︎`)
+						reply(`sᴜᴄᴄᴜss ʙʀᴏᴀᴅᴄᴀsᴛ sᴇɴᴅᴇᴅ ᴀʟʟ ɢʀᴏᴜᴘs...✔︎:\n${body.slice(4)}`)
 					}
 					break          
             case 'tobc':
