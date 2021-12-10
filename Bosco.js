@@ -2033,7 +2033,7 @@ break
               fs.unlinkSync(media)
               if (err) return reply('*Failed, when converting sticker to image*')
               buffer = fs.readFileSync(ran)
-              bosco.sendMessage(from, buffer, image, {quoted: mek, thumbnail:denis, caption: '𝐵𝑌 𝐵𝐸𝐿𝐶𝑂 𝑆𝐸𝑅'})
+              bosco.sendMessage(from, buffer, image, {quoted: mek, thumbnail:denis, caption: '𝐵𝑌 𝐿𝐸𝑉𝐼 𝑆𝐸𝑅'})
               fs.unlinkSync(ran)
 })
               break
