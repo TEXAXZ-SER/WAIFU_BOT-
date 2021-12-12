@@ -1028,12 +1028,7 @@ ${jmn} -  ${jmo}\n${week} - ${calender}
 
 ▢☘︎ ${prefix}readall
 `
-      menubutton = [{buttonId:`script`,buttonText:{displayText:'sᴄʀɪᴘᴛ☃︎'},type:1},
-                   {buttonId:`${prefix}owner`,buttonText:{displayText:'ᴏᴡɴᴇʀ♔︎'},type:1}
-]
-          menumessage = { contentText: `${teks}`, footerText: `©𝙻𝚎𝚟𝚒 𝚜𝚎𝚛`, buttons: menubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
- bosco.sendMessage(from, menumessage, MessageType.buttonsMessage)
-   
+ catlo(owner1)
    break
    case 'groupmenu':
       group1 = `
