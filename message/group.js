@@ -60,7 +60,7 @@ module.exports = welcome = async (bosco, anu) => {
                 time_wel = moment.tz('Asia/Kolkata').format("hh:mm")
                 memeg = mdata.participants.length
                 out = `╭──➤𝐆𝐎𝐎𝐃 𝐁𝐘𝐄👋•──❋ུ۪۪ \n│❖ *ɴᴀᴍᴇ* : @${num.split('@')[0]} \n│❖ *ʙɪᴏ*   : 404 \n╰───────────────❋ུ۪۪ \n*❄︎ 𝚁𝙴𝚂𝚃 𝙽𝙾𝚆 𝙿𝙴𝙰𝙲𝙴🥀* \n╭───────────────❋ུ۪۪ \n│❖ *ᴛɪᴍᴇ* : ${time_wel} \n│❖ *ᴅᴀᴛᴇ* : ${time_welc} \n╰───────────────❋ུ۪۪ \n©ɪͥᴛͭsᷤ ͢ᴍͫᴇͤꪶ͢𝐿𝑒𝑣𝑖 𝑠𝑒𝑟ꫂ`
-                goodbyeBut = [{buttonId:`${prefix}h`,buttonText:{displayText:'𝐆𝐄𝐓 𝐎𝐔𝐓 🚪'},type:1}, {buttonId:`${prefix}sc`,buttonText:{displayText:'𝐒𝐂𝐑𝐈𝐏𝐓🌾}, type:1}]
+                goodbyeBut = [{buttonId:`${prefix}h`,buttonText:{displayText:'𝐆𝐄𝐓 𝐎𝐔𝐓 🚪'},type:1}, {buttonId:`${prefix}sc`,buttonText:{displayText:'𝐒𝐂𝐑𝐈𝐏𝐓🌾'}, type:1}]
                 goodbyeButt = { contentText: ` `, footerText: `${out}`, buttons: goodbyeBut, headerType: 6, locationMessage: bosco3.message.locationMessage}
                 bosco.sendMessage(mdata.id, goodbyeButt, MessageType.buttonsMessage, { caption: 'hehe', "contextInfo": { "mentionedJid" : [num], },})
             }
