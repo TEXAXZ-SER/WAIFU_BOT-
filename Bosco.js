@@ -1029,10 +1029,10 @@ ${jmn} -  ${jmo}\n${week} - ${calender}
 
 ▢☘︎ ${prefix}readall
 `
- menubutton = [{buttonId:`nice`,buttonText:{displayText:'ɴɪᴄᴇ𖠌'},type:1},
+ menubutton = [{buttonId:`nice`,buttonText:{displayText:'ɴɪᴄᴇ🐦'},type:1},
                    {buttonId:`${prefix}owner`,buttonText:{displayText:'ᴏᴡɴᴇʀ♔︎'},type:1}
 ]
- menumessage = { contentText: `${teks}`, footerText: `©ⁱᵗˢᵐᵉᗷᗴᒪᑕO𝓼𝓮𝓻♔︎¹⁰`, buttons: menubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
+ menumessage = { contentText: `${teks}`, footerText: `ꪶ͢𝑳𝑬𝑽𝑰 𝑺𝑬𝑹ꫂ`, buttons: menubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
  bosco.sendMessage(from, menumessage, MessageType.buttonsMessage)
    
    break
