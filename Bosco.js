@@ -986,7 +986,7 @@ ${jmn} -  ${jmo}\n${week} - ${calender}
     case 'ownermenu':
     bosco1 = await bosco.prepareMessage(from, denis, location, {thumbnail: denis})
               bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
-▢☘︎ *𝙾𝚆𝙽𝙴𝚁 - 𝙼𝙴𝙽𝚄* ☘︎▢
+ teks = `╭─[ *𝙾𝚆𝙽𝙴𝚁 - 𝙼𝙴𝙽𝚄* ]──𖣔
 
 
 ▢☘︎ ${prefix}clearall
