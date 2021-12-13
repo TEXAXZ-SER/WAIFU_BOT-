@@ -989,45 +989,46 @@ ${jmn} -  ${jmo}\n${week} - ${calender}
  teks = `╭─[ *𝙾𝚆𝙽𝙴𝚁 - 𝙼𝙴𝙽𝚄* ]──𖣔
 
 
-▢☘︎ ${prefix}clearall
-
-▢☘︎ ${prefix}tobc
-
-▢☘︎ ${prefix}bc
-
-▢☘︎ ${prefix}getquoted
-
-▢☘︎ ${prefix}restart
-
-▢☘︎ ${prefix}term
-
-▢☘︎ ${prefix}block
-
-▢☘︎ ${prefix}unblock
-
-▢☘︎ ${prefix}leaveall
-
-▢☘︎ ${prefix}addcmd
-
-▢☘︎ ${prefix}delcmd
-
-▢☘︎ ${prefix}jadibot
-
-▢☘︎ ${prefix}listjadibot
-
-▢☘︎ ${prefix}stopjadibot
-
-▢☘︎ ${prefix}exif
-
-▢☘︎ ${prefix}join
-
-▢☘︎ ${prefix}return
-
-▢☘︎ ${prefix}public
-
-▢☘︎ ${prefix}self
-
-▢☘︎ ${prefix}readall
+╠➤☘︎ ${prefix}clearall
+╠
+╠➤☘︎ ${prefix}tobc
+╠
+╠➤☘︎ ${prefix}bc
+╠
+╠➤☘︎ ${prefix}getquoted
+╠
+╠➤☘︎ ${prefix}restart
+╠
+╠➤☘︎ ${prefix}term
+╠
+╠➤☘︎ ${prefix}block
+╠
+╠➤☘︎ ${prefix}unblock
+╠
+╠➤☘︎ ${prefix}leaveall
+╠
+╠➤☘︎ ${prefix}addcmd
+╠
+╠➤☘︎ ${prefix}delcmd
+╠
+╠➤☘︎ ${prefix}jadibot
+╠
+╠➤☘︎ ${prefix}listjadibot
+╠
+╠➤☘︎ ${prefix}stopjadibot
+╠
+╠➤☘︎ ${prefix}exif
+╠
+╠➤☘︎ ${prefix}join
+╠
+╠☘︎ ${prefix}return
+╠
+╠➤☘︎ ${prefix}public
+╠
+╠➤☘︎ ${prefix}self
+╠
+╠➤☘︎ ${prefix}readall
+╚════════════════❥︎
 `
  menubutton = [{buttonId:`nice`,buttonText:{displayText:'ɴɪᴄᴇ🐦'},type:1},
                    {buttonId:`${prefix}owner`,buttonText:{displayText:'ᴏᴡɴᴇʀ♔︎'},type:1}
