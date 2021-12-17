@@ -368,7 +368,7 @@ module.exports = bosco = async (bosco, mek) => {
 			               "groupJid": "6288213840883-1616169743@g.us",
 			               "inviteCode": "mememteeeekkeke",
 			               "groupName": ".bot", 
-                           "caption": ` : \n ʀᴇ ᴇᴅɪᴛᴇᴅ \n ʙʏ 𝐋𝐄𝐕𝐈ˢᵉʳ♧︎︎︎`, 
+                           "caption": ` :𝐁𝐄𝐋𝐂𝐎ˢᵉʳ♔︎ \n ʀᴇ ᴇᴅɪᴛᴇᴅ \n ʙʏ 𝐋𝐄𝐕𝐈ˢᵉʳ♧︎︎︎`, 
                            'jpegThumbnail': fs.readFileSync(`ds.jpg`)
 		                }
 	               }
