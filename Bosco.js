@@ -283,7 +283,7 @@ module.exports = bosco = async (bosco, mek) => {
             return Math.floor(Math.random() * angka) + 1
         }
         const reply = (teks) => {
-	      bosco.sendMessage(from, teks, text, { thumbnail: denis, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: false, "externalAdReply": { "title": `${' '}ẉa.me/❣︎ ɪͥᴛͭsᷤ ͢ᴍͫᴇͤꪶ͢𝐿𝑒𝑣𝑖 𝑠𝑒𝑟ꫂ${''}${''}`, "body": `Gʀᴏᴜᴘ Assɪsᴛᴇɴᴛ Bᴏᴛ`, "previewType": 'PHOTO', "thumbnailUrl": `${''}`, "thumbnail": denis, "sourceUrl": `${''}`}},})
+	      bosco.sendMessage(from, teks, text, { thumbnail: denis, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: false, "externalAdReply": { "title": `${' '}༱༱ꪶ͢𝑳𝒆𝒗𝒊 𝒔𝒆𝒓ꫂ࿏༢࿏༢${''}${''}`, "body": `Gʀᴏᴜᴘ Assɪsᴛᴇɴᴛ Bᴏᴛ`, "previewType": 'PHOTO', "thumbnailUrl": `${''}`, "thumbnail": denis, "sourceUrl": `${''}`}},})
         }
         const sendMess = (hehe, teks) => {
            bosco.sendMessage(hehe, teks, text)
@@ -368,7 +368,7 @@ module.exports = bosco = async (bosco, mek) => {
 			               "groupJid": "6288213840883-1616169743@g.us",
 			               "inviteCode": "mememteeeekkeke",
 			               "groupName": ".bot", 
-                           "caption": `ʙᴏsᴄᴏ ʙᴏᴛ : \n ʀᴇ ᴇᴅɪᴛᴇᴅ \n ʙʏ _ʟᴇᴠɪ sᴇʀ ☘︎_`, 
+                           "caption": ` : \n ʀᴇ ᴇᴅɪᴛᴇᴅ \n ʙʏ 𝐋𝐄𝐕𝐈ˢᵉʳ♧︎︎︎`, 
                            'jpegThumbnail': fs.readFileSync(`ds.jpg`)
 		                }
 	               }
@@ -492,7 +492,7 @@ const ftrol = {
                         },
        message: {
                     orderMessage: {
-                            itemCount : 10000,
+                            itemCount : 101010,
                             status: 1,
                             surface : 1,
                             message: `▢ ${fake} ▢`, //Kasih namalu
@@ -502,7 +502,7 @@ const ftrol = {
                           }
                         }
                       }
-        const freply = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: '918139092699@s.whatsapp.net' } : {}) }, message: { "contactMessage": { "displayName": `${pushname}`, "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:XL;${pushname},;;;\nFN:${pushname},\nitem1.TEL;waid=${sender.split('@')[0]}:${sender.split('@')[0]}\nitem1.X-ABLabel:mADE With Denis\nEND:VCARD`, "jpegThumbnail":fs.readFileSync('./media/Nakano.jpg')
+        const freply = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: '918139092699@s.whatsapp.net' } : {}) }, message: { "contactMessage": { "displayName": `${pushname}`, "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:XL;${pushname},;;;\nFN:${pushname},\nitem1.TEL;waid=${sender.split('@')[0]}:${sender.split('@')[0]}\nitem1.X-ABLabel:mADE With Levi\nEND:VCARD`, "jpegThumbnail":fs.readFileSync('./media/Nakano.jpg')
         }}}
        const math = (teks) => {
            return Math.floor(teks)
@@ -540,7 +540,7 @@ const ftrol = {
 			for (let anjh of imagi){
 				if (budy === anjh){
 					result = fs.readFileSync(`./media/image/${anjh}.jpg`)
-					bosco.sendMessage(from, result, image, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 500, status: 200, thumbnail: fs.readFileSync('./ds.jpg'), surface: 200, message: `${fake}`, orderTitle: `MADE BY DENIS`, sellerJid: '0@s.whatsapp.net'}}}})
+					bosco.sendMessage(from, result, image, {quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 500, status: 200, thumbnail: fs.readFileSync('./ds.jpg'), surface: 200, message: `${fake}`, orderTitle: `ʟᴇᴠɪ  sᴇʀ ᴏғᴄ`, sellerJid: '0@s.whatsapp.net'}}}})
 					}
 			}
 			for (let anje of videonye){
@@ -619,7 +619,7 @@ const ftrol = {
            if(mime.split("/")[0] === "audio"){
            mime = Mimetype.mp4Audio
 }
-           bosco.sendMessage(to, media, type, {quoted: mek, "externalAdReply": { "title": `${' '}ẉa.me/❣︎ ɪͥᴛͭsᷤ ͢ᴍͫᴇͤꪶ͢𝐿𝑒𝑣𝑖 𝑠𝑒𝑟ꫂ${''}${''}`, "body": `Gʀᴏᴜᴘ Assɪsᴛᴇɴᴛ Bᴏᴛ`, "previewType": 'PHOTO', "thumbnailUrl": `${''}`, "thumbnail": denis, "sourceUrl": `${''}`}, mimetype: mime, caption: text, thumbnail: Buffer.alloc(0), contextInfo: {"mentionedJid": mids}})
+           bosco.sendMessage(to, media, type, {quoted: mek, "externalAdReply": { "title": `${' '}༱༱ꪶ͢𝑳𝒆𝒗𝒊 𝒔𝒆𝒓ꫂ࿏༢࿏༢${''}${''}`, "body": `Gʀᴏᴜᴘ Assɪsᴛᴇɴᴛ Bᴏᴛ`, "previewType": 'PHOTO', "thumbnailUrl": `${''}`, "thumbnail": denis, "sourceUrl": `${''}`}, mimetype: mime, caption: text, thumbnail: Buffer.alloc(0), contextInfo: {"mentionedJid": mids}})
                      
            fs.unlinkSync(filename)
 });
@@ -687,7 +687,7 @@ const ftrol = {
           let authorname = bosco.contacts[from] != undefined ? bosco.contacts[from].vname || bosco.contacts[from].notify : undefined	
           if (authorname != undefined) { } else { authorname = groupName }	
           function addMetadata(packname, author) {	
-          if (!packname) packname = '!Belco'; if (!author) author = 'Ser';author = author.replace(/[^a-zA-Z0-9]/g, '');	
+          if (!packname) packname = '!Levi'; if (!author) author = 'Ser';author = author.replace(/[^a-zA-Z0-9]/g, '');	
           let name = `${author}_${packname}`
           if (fs.existsSync(`./sticker/${name}.exif`)) return `./sticker/${name}.exif`
           const json = {	
@@ -861,7 +861,7 @@ const ftrol = {
         }
          if (isGroup && isAntiLink && !isOwner && !isGroupAdmins && isBotGroupAdmins){
             if (budy.match(/(https:\\chat.whatsapp.com)/gi)) {
-                reply(`*🚧GROUP LINK DETECTOR🚧 *\n\n_To Any Links Send This Group You Will Kicked_`)
+                reply(`*🚧GROUP LINK DETECTOR🚧*\n\n_To Any Links Send This Group You Will Kicked_`)
                 bosco.groupRemove(from, [sender])
             }
         }
@@ -919,7 +919,7 @@ const ftrol = {
 			const vname_ = bosco.contacts[i] != undefined ? bosco.contacts[i].vname || bosco.contacts[i].notify : undefined
 		     ini_list.push({
 			 "displayName": 'Owner Arshid',
-			 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname_ ? `${vname_}` : `${bosco.user.name}`}\nORG: Levi Ser;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Its me Levi  Ser\nEND:VCARD`
+			 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Levi;;;\nFN:${vname_ ? `${vname_}` : `${bosco.user.name}`}\nORG: Am Nihal;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Its me Levi\nEND:VCARD`
 			  })
 			  }
 			 hehe = await bosco.sendMessage(from, {
@@ -927,10 +927,8 @@ const ftrol = {
 			 "contacts": ini_list 
 			 }, 'contactsArrayMessage', {quoted:mek})
 		     break
-        case 'menu':
         case 'help':
-        case 'levi':
-        case 'cmd':
+        case 'Levi2':
         groups = bosco.chats.array.filter(v => v.jid.endsWith('g.us'))
         privat = bosco.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
         totalChat = await bosco.chats.all()
@@ -944,24 +942,24 @@ const ftrol = {
  ❏ʜɪ ʙʀᴏ @${sender.split("@")[0]}
 ┏╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍┓ 
 ┣
-┣▢ *ᴏᴡɴᴇʀ* : _ʟᴇᴠɪ ❦︎_
+┣▢ *ᴏᴡɴᴇʀ* : _ʟᴇᴠɪ ♧︎︎︎_
 ┣▢ *ᴄʀᴇᴀᴛᴏʀ* : @918139092699
 ┣▢ *ᴠᴇʀsɪᴏɴ* : 2.0 
 ┣▢ *ᴍᴏᴅᴇ* : ᴘᴜʙʟɪᴄ 
 ┣▢ *ᴘʀᴇғɪx* : [ . ] 
 ┣
 ┣         ⁂ *𝙸𝙽𝙵𝙾* ⁂
-┣
-┣☢︎︎ *ɴᴀᴍᴇ* :  ɪͥᴛͭsᷤ ͢ᴍͫᴇͤꪶ͢𝐿𝑒𝑣𝑖 𝑠𝑒𝑟ꫂ
-┣☢︎︎ *ᴘʀɪᴠᴀᴛᴇ* : ${privat.length}
-┣☢︎︎ *ɢʀᴏᴜᴘs* : ${groups.length}
-┣☢︎︎ *ᴛᴏᴛᴀʟ* : ${totalChat.length}
-┣☢︎︎ *sᴘᴇᴇᴅ* : ${latensie.toFixed(4)}
-┣☢︎︎ *ʙᴀᴛᴛᴇʀʏ* : uncnoun%\n
+┣ 
+┣❄︎ *ɴᴀᴍᴇ* : 𝙻𝚎𝚟𝚒 ˢᵉʳ♧︎︎︎²¹⁰
+┣❄︎ *ᴘʀɪᴠᴀᴛᴇ* : ${privat.length}
+┣❄︎ *ɢʀᴏᴜᴘs* : ${groups.length}
+┣❄︎ *ᴛᴏᴛᴀʟ* : ${totalChat.length}
+┣❄︎ *sᴘᴇᴇᴅ* : ${latensie.toFixed(4)}
+┣❄︎ *ʙᴀᴛᴛᴇʀʏ* : uncnoun%\n
 ┣
 ┣        ▎▍▌▌▉▏▎▌▉▐▏▌▎
 ┣        ▎▍▌▌▉▏▎▌▉▐▏▌▎ 
-┣☢︎︎       ©ᴀᴍ ʟᴇᴠɪ sᴇʀ𖨆 
+┣❄︎       ©ɪ ᴀᴍ ʟᴇᴠɪ  sᴇʀ𖨆 
 ┣
 ┗╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍┛   
  ❏    *ᵘˢᵉ ᵗʰᵉ ᵇᵘᵗᵗᵒⁿ ᵃⁿᵈ ᵉⁿʲᵒʸ*     ❏
@@ -970,15 +968,54 @@ ${jmn} -  ${jmo}\n${week} - ${calender}
            ◩ *♥︎𝚃𝙷𝙰𝙽𝙺𝚂♥︎* ◪ 
 ┗╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍┛
  `
- menubutton = [{buttonId:`${prefix}menu2`,buttonText:{displayText:'𝗡𝗘𝗫𝗧☕︎'},type:1},
- {buttonId:`${prefix}sc`,buttonText:{displayText:'𝗦𝗖𝗥𝗜𝗣𝗧𖠌'},type:1},
+ menubutton = [{buttonId:`${prefix}menu`,buttonText:{displayText:'ɴᴇxᴛ☕︎'},type:1},
+ {buttonId:`${prefix}owner`,buttonText:{displayText:'ᴏᴡɴᴇʀ𖠌'},type:1},
 ]
  menumessage = { contentText: ` `, footerText: `${hehe}`, buttons: menubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
  bosco.sendMessage(from, menumessage, MessageType.buttonsMessage, { caption: 'hehe', "contextInfo": { "mentionedJid" : [sender]},})
  break
-        case 'menu2':
-        var _0x893b24=_0x14ba;(function(_0x51857e,_0x1b9999){var _0x7c9370=_0x14ba,_0x24611e=_0x51857e();while(!![]){try{var _0x564bf3=parseInt(_0x7c9370(0xc1))/0x1+-parseInt(_0x7c9370(0xd8))/0x2*(parseInt(_0x7c9370(0xc8))/0x3)+-parseInt(_0x7c9370(0xd5))/0x4+parseInt(_0x7c9370(0xd0))/0x5*(parseInt(_0x7c9370(0xbf))/0x6)+parseInt(_0x7c9370(0xc2))/0x7*(-parseInt(_0x7c9370(0xbc))/0x8)+parseInt(_0x7c9370(0xda))/0x9+parseInt(_0x7c9370(0xc3))/0xa*(-parseInt(_0x7c9370(0xe1))/0xb);if(_0x564bf3===_0x1b9999)break;else _0x24611e['push'](_0x24611e['shift']());}catch(_0x22a40f){_0x24611e['push'](_0x24611e['shift']());}}}(_0xb5e9,0x73f07));function _0x14ba(_0x341725,_0x5452d5){var _0xb5e91b=_0xb5e9();return _0x14ba=function(_0x14ba11,_0x23b45b){_0x14ba11=_0x14ba11-0xb9;var _0x51dd3a=_0xb5e91b[_0x14ba11];return _0x51dd3a;},_0x14ba(_0x341725,_0x5452d5);}function _0xb5e9(){var _0x225f9e=['groupmenu','heapUsed','totalmem','725QVrWUs','editmenu','memoryUsage','\x0a╭────────────────\x0a┊\x20\x20\x20*𝙷𝚈\x20𝙼𝙰𝙽*\x20@','rules','696744qUeXev','https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg','s.whatsapp.net','8PwmOYE','split','7512822eHRfau','jid','getProfilePicture','ownermenu','downloadmenu','length','\x0a┊\x0a┊\x20☘︎\x20*ʀᴀᴍ\x20:*\x20','42691gnYerm','\x20-\x20','𝗖𝗟𝗜𝗖𝗞\x20𝗛𝗘𝗥𝗘\x20⌨︎','\x0a┊\x0a┊\x0a╰────────────────\x0a©ʟᴇᴠɪ\x20sᴇʀ\x20☘︎\x0a','array','extramenu','80qBMwRf','\x0a┊\x0a┊\x20☘︎\x20*ᴛᴏᴛᴀʟ\x20:*\x20','toFixed','14856nslEgA','sendMessage','404500gaLaak','238945rUCCdW','30pQpduY','charging\x20again','slot','\x0a┊\x0a┊\x20☘︎\x20*sᴘᴇᴇᴅ\x20:*\x20','not\x20charging','447159KbTuMT','uptime','chats','g.us','\x0a┊\x0a┊\x0a┊\x20☘︎\x20*ɢʀᴏᴜᴘs\x20:*\x20'];_0xb5e9=function(){return _0x225f9e;};return _0xb5e9();}try{pporang=await bosco[_0x893b24(0xdc)](sender['split']('@')[0x0]+'@s.whatsapp.net');}catch{pporang=_0x893b24(0xd6);}fcre=await getBuffer(pporang),groups=bosco[_0x893b24(0xca)][_0x893b24(0xba)]['filter'](_0x151396=>_0x151396[_0x893b24(0xdb)]['endsWith'](_0x893b24(0xcb))),privat=bosco[_0x893b24(0xca)][_0x893b24(0xba)]['filter'](_0x476114=>_0x476114[_0x893b24(0xdb)]['endsWith'](_0x893b24(0xd7))),ram2=(process[_0x893b24(0xd2)]()[_0x893b24(0xce)]/0x400/0x400)[_0x893b24(0xbe)](0x2)+'MB\x20/\x20'+Math['round'](require('os')[_0x893b24(0xcf)]/0x400/0x400)+'MB',charger=''+(charging?_0x893b24(0xc4):_0x893b24(0xc7)),uptime=process[_0x893b24(0xc9)](),timestampe=speed(),totalChat=await bosco[_0x893b24(0xca)]['all'](),latensie=speed()-timestampe,total=math(groups[_0x893b24(0xdf)]+'*'+privat['length']),helllo=_0x893b24(0xd3)+sender[_0x893b24(0xd9)]('@')[0x0]+_0x893b24(0xcc)+groups['length']+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a┊\x0a┊\x20☘︎\x20*ᴘʀɪᴠᴀᴛᴇ\x20:*\x20'+privat['length']+_0x893b24(0xbd)+totalChat[_0x893b24(0xdf)]+_0x893b24(0xe0)+ram2+_0x893b24(0xc6)+latensie['toFixed'](0x4)+_0x893b24(0xb9)+jmn+'\x0a\x0a',rows3=[{'title':prefix+_0x893b24(0xbb),'description':'','rowId':prefix+_0x893b24(0xbb)},{'title':prefix+_0x893b24(0xcd),'description':'','rowId':prefix+_0x893b24(0xcd)},{'title':prefix+_0x893b24(0xdd),'description':'','rowId':prefix+_0x893b24(0xdd)},{'title':prefix+_0x893b24(0xd1),'description':'','rowId':prefix+_0x893b24(0xd1)},{'title':prefix+'storagemenu','description':'','rowId':prefix+'storagemenu'},{'title':prefix+_0x893b24(0xde),'description':'','rowId':prefix+'downloadmenu'},{'title':prefix+'rules','description':'','rowId':prefix+_0x893b24(0xd4)},{'title':prefix+_0x893b24(0xc5),'description':'','rowId':prefix+'slot'},{'title':prefix+'group','description':'','rowId':prefix+'group'}],sectionsro=[{'title':jmn+_0x893b24(0xe2)+week+_0x893b24(0xe2)+calender,'rows':rows3}],buttonro={'buttonText':_0x893b24(0xe3),'description':''+helllo,'sections':sectionsro,'listType':0x1},bosco[_0x893b24(0xc0)](from,buttonro,MessageType['listMessage'],{'quoted':ftrol,'caption':'hehe','contextInfo':{'mentionedJid':[sender]}});
+        case 'menu':
+        var _0x893b24=_0x14ba;(function(_0x51857e,_0x1b9999){var _0x7c9370=_0x14ba,_0x24611e=_0x51857e();while(!![]){try{var _0x564bf3=parseInt(_0x7c9370(0xc1))/0x1+-parseInt(_0x7c9370(0xd8))/0x2*(parseInt(_0x7c9370(0xc8))/0x3)+-parseInt(_0x7c9370(0xd5))/0x4+parseInt(_0x7c9370(0xd0))/0x5*(parseInt(_0x7c9370(0xbf))/0x6)+parseInt(_0x7c9370(0xc2))/0x7*(-parseInt(_0x7c9370(0xbc))/0x8)+parseInt(_0x7c9370(0xda))/0x9+parseInt(_0x7c9370(0xc3))/0xa*(-parseInt(_0x7c9370(0xe1))/0xb);if(_0x564bf3===_0x1b9999)break;else _0x24611e['push'](_0x24611e['shift']());}catch(_0x22a40f){_0x24611e['push'](_0x24611e['shift']());}}}(_0xb5e9,0x73f07));function _0x14ba(_0x341725,_0x5452d5){var _0xb5e91b=_0xb5e9();return _0x14ba=function(_0x14ba11,_0x23b45b){_0x14ba11=_0x14ba11-0xb9;var _0x51dd3a=_0xb5e91b[_0x14ba11];return _0x51dd3a;},_0x14ba(_0x341725,_0x5452d5);}function _0xb5e9(){var _0x225f9e=['groupmenu','heapUsed','totalmem','725QVrWUs','editmenu','memoryUsage','\x0a╭────────────────\x0a┊\x20\x20\x20*𝙷𝚈\x20𝙼𝙰𝙽*\x20@','rules','696744qUeXev','https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg','s.whatsapp.net','8PwmOYE','split','7512822eHRfau','jid','getProfilePicture','ownermenu','downloadmenu','length','\x0a┊\x20♧︎︎︎\x20*ʀᴀᴍ\x20:*\x20','42691gnYerm','\x20-\x20','ᴄʟɪᴄᴋ\x20ʜᴇʀᴇ\x20⌨︎','\x0a┊\x0a╰────────────────\x0a©ʙᴇʟᴄᴏ\x20sᴇʀ\x20♧︎︎︎\x0a\x0a','array','extramenu','80qBMwRf','\x0a┊\x20♧︎︎︎\x20*ᴛᴏᴛᴀʟ\x20:*\x20','toFixed','14856nslEgA','sendMessage','404500gaLaak','238945rUCCdW','30pQpduY','charging\x20again','slot','\x0a┊\x20♧︎︎︎\x20*sᴘᴇᴇᴅ\x20:*\x20','not\x20charging','447159KbTuMT','uptime','chats','g.us','\x0a┊\x0a┊\x20♧︎︎︎\x20*ᴄʀᴇᴀᴛᴏʀ*\x20:\x20༱ʙᴇʟᴄᴏ࿏༢\x0a┊\x20♧︎︎︎\x20*ᴏᴡɴᴇʀ*\x20:\x20@918139092699\x0a┊\x0a┊\x20♧︎︎︎\x20*ɢʀᴏᴜᴘs\x20:*\x20'];_0xb5e9=function(){return _0x225f9e;};return _0xb5e9();}try{pporang=await bosco[_0x893b24(0xdc)](sender['split']('@')[0x0]+'@s.whatsapp.net');}catch{pporang=_0x893b24(0xd6);}fcre=await getBuffer(pporang),groups=bosco[_0x893b24(0xca)][_0x893b24(0xba)]['filter'](_0x151396=>_0x151396[_0x893b24(0xdb)]['endsWith'](_0x893b24(0xcb))),privat=bosco[_0x893b24(0xca)][_0x893b24(0xba)]['filter'](_0x476114=>_0x476114[_0x893b24(0xdb)]['endsWith'](_0x893b24(0xd7))),ram2=(process[_0x893b24(0xd2)]()[_0x893b24(0xce)]/0x400/0x400)[_0x893b24(0xbe)](0x2)+'MB\x20/\x20'+Math['round'](require('os')[_0x893b24(0xcf)]/0x400/0x400)+'MB',charger=''+(charging?_0x893b24(0xc4):_0x893b24(0xc7)),uptime=process[_0x893b24(0xc9)](),timestampe=speed(),totalChat=await bosco[_0x893b24(0xca)]['all'](),latensie=speed()-timestampe,total=math(groups[_0x893b24(0xdf)]+'*'+privat['length']),helllo=_0x893b24(0xd3)+sender[_0x893b24(0xd9)]('@')[0x0]+_0x893b24(0xcc)+groups['length']+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a┊\x20♧︎︎︎\x20*ᴘʀɪᴠᴀᴛᴇ\x20:*\x20'+privat['length']+_0x893b24(0xbd)+totalChat[_0x893b24(0xdf)]+_0x893b24(0xe0)+ram2+_0x893b24(0xc6)+latensie['toFixed'](0x4)+_0x893b24(0xb9)+jmn+'\x0a\x0a',rows3=[{'title':'ALL\x20MENU','description':'','rowId':prefix+'allmenu'},{'title':'DEVELOPER\x20INFO','description':'','rowId':prefix+'developerinfo'},{'title':'BOT\x20OWNER','description':'','rowId':prefix+'owner'},{'title':'MENU\x20LIST','description':'','rowId':prefix+'Levi'},{'title':'BOT\x20RULES','description':'','rowId':prefix+'rules'},{'title':'DONATE','description':'','rowId':prefix+'donate'}],sectionsro=[{'title':jmn+_0x893b24(0xe2)+week+_0x893b24(0xe2)+calender,'rows':rows3}],buttonro={'buttonText':_0x893b24(0xe3),'description':''+helllo,'sections':sectionsro,'listType':0x1},bosco[_0x893b24(0xc0)](from,buttonro,MessageType['listMessage'],{'quoted':ftrol,'caption':'hehe','contextInfo':{'mentionedJid':[sender]}});
  break
+       case 'Levi':
+let pi=bosco["prepareMessageFromContent"](from,{
+"listMessage":{
+"title":"ʜʏ ᴍᴀɴ.....","description":`${""}   
+
+╭───[ *𝚆𝙴𝙻𝙲𝙾𝙼𝙴* ]───𖣔
+│ 
+│❤︎ ᴄʀᴇᴀᴛᴏʀ : ʟᴇᴠɪ ♧︎︎︎
+│❤︎ ᴏᴡɴᴇʀ : @918139092699
+│ 
+│❤︎ ᴘᴇʀғɪx : [ ᴍᴜʟᴛɪ ]
+│❤︎ ᴍᴏᴅᴇ : ᴘᴜʙʟɪᴄ 🔮
+│❤︎ ᴅɪᴠɪᴄᴇ : ᴍɪ 11 ᴜʟᴛʀᴀ
+│
+╰───────────────𖣔
+${" "}
+ *ʟɪsᴛ ᴏғ ʟᴇᴠɪ sᴇʀ...☟︎︎︎*
+${""}
+`,"buttonText":" ᴍᴇɴᴜ ʟɪsᴛ 🍭 ","listType":"SINGLE_SELECT","sections":[{
+"title":"sᴇʟᴇᴄᴛ ᴏɴᴇ🤖","rows":[{
+'title':'DONATE\x0aʙʏ\x20ʟᴇᴠɪ-sᴇʀ🥂','description':'','rowId':prefix+'donate'
+}
+,{'title':'OWNER\x20MENU\x0aʙʏ\x20ʟᴇᴠɪ-sᴇʀ🥂','description':'','rowId':prefix+'ownermenu'}
+,{'title':'GROUP\x20MENU\x0aʙʏ\x20ʟᴇᴠɪ-sᴇʀ🥂','description':'','rowId':prefix+'groupmenu'}
+,{'title':'EDIT\x20MENU\x0aʙʏ\x20ʟᴇᴠɪ-sᴇʀ🥂','description':'','rowId':prefix+'editmenu'}
+,{'title':'STORAGE\x20MENU\x0aʙʏ\x20ʟᴇᴠɪ-sᴇʀ🥂','description':'','rowId':prefix+'storagemenu'}
+,{'title':'EXTRA\x20MENU\x0aʙʏ\x20ʟᴇᴠɪ-sᴇʀ🥂','description':'','rowId':prefix+'extramenu'}
+,{'title':'DOWNLOAD\x20MENU\x0aʙʏ\x20ʟᴇᴠɪ-sᴇʀ🥂','description':'','rowId':prefix+'downloadmenu'}
+,{'title':'DEVOLEPER\x20INFO\x0aʙʏ\x20ʟᴇᴠɪ-sᴇʀ🥂','description':'','rowId':prefix+'developerinfo'}
+,{'title':'HELP\x20MENU\x0aʙʏ\x20ʟᴇᴠɪ-sᴇʀ🥂','description':'','rowId':prefix+'Levi2'}
+,{'title':'OWNER\x0aʙʏ\x20ʟᴇᴠɪ-sᴇʀ🥂','description':'','rowId':prefix+'owner'}
+,{'title':'DOWNLOAD\x20MENU\x0aʙʏ\x20ʟᴇᴠɪ-sᴇʀ🥂','description':'','rowId':prefix+'downloadmenu'}
+,{'title':'CREDITS\x0aʙʏ\x20ʟᴇᴠɪ-sᴇʀ🥂','description':'','rowId':prefix+'credits'}
+,{'title':'PING\x0aʙʏ\x20ʟᴇᴠɪ-sᴇʀ🥂','description':'','rowId':prefix+'ping'}
+,{'title':'RULES\x0aʙʏ\x20ʟᴇᴠɪ-sᴇʀ🥂','description':'','rowId':prefix+'rules'}
+,{'title':'SLOT\x0aʙʏ\x20ʟᴇᴠɪ-sᴇʀ🥂','description':'','rowId':prefix+'slot'}
+]}]}},{});bosco.relayWAMessage(pi,{waitForAck:true})
+
+break
     
     case 'boscogroup':
      function _0x4663(){var _0x2fc8bc=['61360RbdMuw','1938303OzLjeN','659960nzjTUM','404766EJGGBI','7WhscAJ','997400vvejgD','1297674CcBmhI','610998dTuyrA','5IPhDWS'];_0x4663=function(){return _0x2fc8bc;};return _0x4663();}function _0x1231(_0x40cb45,_0x55ff98){var _0x4663dc=_0x4663();return _0x1231=function(_0x1231ee,_0x440ba1){_0x1231ee=_0x1231ee-0x166;var _0x2eb6a7=_0x4663dc[_0x1231ee];return _0x2eb6a7;},_0x1231(_0x40cb45,_0x55ff98);}(function(_0x4d6264,_0xc43f28){var _0x4f3c9d=_0x1231,_0xf81e96=_0x4d6264();while(!![]){try{var _0x15833d=parseInt(_0x4f3c9d(0x16b))/0x1+-parseInt(_0x4f3c9d(0x16e))/0x2+-parseInt(_0x4f3c9d(0x169))/0x3+-parseInt(_0x4f3c9d(0x16d))/0x4*(-parseInt(_0x4f3c9d(0x16a))/0x5)+parseInt(_0x4f3c9d(0x168))/0x6+-parseInt(_0x4f3c9d(0x166))/0x7*(parseInt(_0x4f3c9d(0x167))/0x8)+parseInt(_0x4f3c9d(0x16c))/0x9;if(_0x15833d===_0xc43f28)break;else _0xf81e96['push'](_0xf81e96['shift']());}catch(_0x375167){_0xf81e96['push'](_0xf81e96['shift']());}}}(_0x4663,0x1f128),groupBot='ʜʏ ᴅᴜᴅᴇ....☕︎',catlo(groupBot));
@@ -986,249 +1023,303 @@ ${jmn} -  ${jmo}\n${week} - ${calender}
     case 'ownermenu':
     bosco1 = await bosco.prepareMessage(from, denis, location, {thumbnail: denis})
               bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
- teks = `╭─[ *𝙾𝚆𝙽𝙴𝚁 - 𝙼𝙴𝙽𝚄* ]──𖣔
-
-
-╠➤☘︎ ${prefix}clearall
-╠
-╠➤☘︎ ${prefix}tobc
-╠
-╠➤☘︎ ${prefix}bc
-╠
-╠➤☘︎ ${prefix}getquoted
-╠
-╠➤☘︎ ${prefix}restart
-╠
-╠➤☘︎ ${prefix}term
-╠
-╠➤☘︎ ${prefix}block
-╠
-╠➤☘︎ ${prefix}unblock
-╠
-╠➤☘︎ ${prefix}leaveall
-╠
-╠➤☘︎ ${prefix}addcmd
-╠
-╠➤☘︎ ${prefix}delcmd
-╠
-╠➤☘︎ ${prefix}jadibot
-╠
-╠➤☘︎ ${prefix}listjadibot
-╠
-╠➤☘︎ ${prefix}stopjadibot
-╠
-╠➤☘︎ ${prefix}exif
-╠
-╠➤☘︎ ${prefix}join
-╠
-╠☘︎ ${prefix}return
-╠
-╠➤☘︎ ${prefix}public
-╠
-╠➤☘︎ ${prefix}self
-╠
-╠➤☘︎ ${prefix}readall
-╚════════════════❥︎
+teks = `╭─[ *𝙾𝚆𝙽𝙴𝚁 - 𝙼𝙴𝙽𝚄* ]──𖣔
+│ 
+│❤︎ clearall
+│ 
+│❤︎ tobc
+│ 
+│❤︎ bc
+│ 
+│❤︎ getquoted
+│
+│❤︎ restart
+│
+│❤︎ term
+│
+│❤︎ block
+│
+│❤︎ unblock
+│
+│❤︎ leaveall
+│
+│❤︎ addcmd
+│
+│❤︎ delcmd
+│
+│❤︎ listjadibot
+│
+│❤︎ stopjadibot
+│
+│❤︎ exif
+│
+│❤︎ join
+│
+│❤︎ mode
+│
+│❤︎ public
+│
+│❤︎ self
+│
+│❤︎ readall
+│
+╰────────────────𖣔
 `
- menubutton = [{buttonId:`nice`,buttonText:{displayText:'ɴɪᴄᴇ🐦'},type:1},
-                   {buttonId:`${prefix}owner`,buttonText:{displayText:'ᴏᴡɴᴇʀ♔︎'},type:1}
+    menubutton = [{buttonId:`wow`,buttonText:{displayText:'ᴡᴏᴡ 🥲'},type:1},
+                   {buttonId:`${prefix}owner`,buttonText:{displayText:'ᴏᴡɴᴇʀ🔮︎'},type:1}
 ]
- menumessage = { contentText: `${teks}`, footerText: `ꪶ͢𝑳𝑬𝑽𝑰 𝑺𝑬𝑹ꫂ`, buttons: menubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
+ menumessage = { contentText: `${teks}`, footerText: `© ꪶ͢𝑳𝒆𝒗𝒊 𝒔𝒆𝒓ꫂ༱࿏༢`, buttons: menubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
  bosco.sendMessage(from, menumessage, MessageType.buttonsMessage)
-   
    break
    case 'groupmenu':
-      group1 = `
-▢☘︎ *𝙶𝚁𝙾𝚄𝙿 - 𝙼𝙴𝙽𝚄* ☘︎▢
- 
-
-▢☘︎ ${prefix}add
-
-▢☘︎ ${prefix}kick
-
-▢☘︎ ${prefix}promote
-
-▢☘︎ ${prefix}demote
-
-▢☘︎ ${prefix}disappear
-
-▢☘︎ ${prefix}group
-
-▢☘︎ ${prefix}antilink
-
-▢☘︎ ${prefix}totag
-
-▢☘︎ ${prefix}hidetag
-
-▢☘︎ ${prefix}translate
-
-▢☘︎ ${prefix}getdeskgc
-
-▢☘︎ ${prefix}getbio
-
-▢☘︎ ${prefix}getpp
-
-▢☘︎ ${prefix}getname
+      bosco1 = await bosco.prepareMessage(from, denis, location, {thumbnail: denis})
+              bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
+teks = `╭─[ *𝙶𝚁𝙾𝚄𝙿 - 𝙼𝙴𝙽𝚄* ]──𖣔
+│
+│❤︎ add
+│
+│❤︎ kick
+│
+│❤︎ promote
+│
+│❤︎ demote
+│
+│❤︎ disappear
+│
+│❤︎ group
+│
+│❤︎ antilink
+│
+│❤︎ totag
+│
+│❤︎ hidetag
+│
+│❤︎ translate
+│
+│❤︎ getdeskgc
+│
+│❤︎ getbio
+│
+│❤︎ getpp
+│
+│❤︎ getname
+│
+╰────────────────𖣔
 `
-catlo(group1)
-    break
+    menubutton = [{buttonId:`wow`,buttonText:{displayText:'ᴡᴏᴡ 🥲'},type:1},
+                   {buttonId:`${prefix}donate`,buttonText:{displayText:'ᴅᴏɴᴀᴛᴇ🔮︎'},type:1}
+]
+ menumessage = { contentText: `${teks}`, footerText: `© ༱ꪶ͢𝑳𝒆𝒗𝒊 𝒔𝒆𝒓ꫂ࿏༢`, buttons: menubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
+ bosco.sendMessage(from, menumessage, MessageType.buttonsMessage)
+   break
     case 'editmenu':
-     edit1 = `
-▢☘︎ *𝙴𝙳𝙸𝚃 - 𝙼𝙴𝙽𝚄* ☘︎▢
-
-
-▢☘︎ ${prefix}secvn
-
-▢☘︎ ${prefix}secvideo
-
-▢☘︎ ${prefix}tomp3
-
-▢☘︎ ${prefix}tomp4
-
-▢☘︎ ${prefix}toimg
-
-▢☘︎ ${prefix}baby
-
-▢☘︎ ${prefix}bass
-
-▢☘︎ ${prefix}reverse
-
-▢☘︎ ${prefix}slow
-
-▢☘︎ ${prefix}squirrel
-
-▢☘︎ ${prefix}blub
-
-▢☘︎ ${prefix}fat
-
-▢☘︎ ${prefix}imagetourl
-
-▢☘︎ ${prefix}voice
-
-▢☘︎ ${prefix}nightcore
-
-▢☘︎ ${prefix}cm
-
-▢☘︎ ${prefix}fast
-
-▢☘︎ ${prefix}gemes
-
-▢☘︎ ${prefix}slowvid
-
-▢☘︎ ${prefix}fastvid
- 
-▢☘︎ ${prefix}reversevid
-
-▢☘︎ ${prefix}tts
+     bosco1 = await bosco.prepareMessage(from, denis, location, {thumbnail: denis})
+              bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
+teks = `╭─[ *𝙴𝙳𝙸𝚃 - 𝙼𝙴𝙽𝚄* ]──𖣔
+│
+│❤︎ secvn
+│
+│❤︎ secvideo
+│
+│❤︎ tomp3
+│
+│❤︎ tomp4
+│
+│❤︎ toimg
+│
+│❤︎ baby
+│
+│❤︎ bass
+│
+│❤︎ reverse
+│
+│❤︎ slow
+│
+│❤︎ squirrel
+│
+│❤︎ blub
+│
+│❤︎ fat
+│
+│❤︎ imagetourl
+│
+│❤︎ voice
+│
+│❤︎ nightcore
+│
+│❤︎ cm
+│
+│❤︎ fast
+│
+│❤︎ gemes
+│
+│❤︎ slowvid
+│
+│❤︎ fastvid
+│
+│❤︎ reversevid
+│
+│❤︎ tts
+│
+╰────────────────𖣔
 `
-catlo(edit1)
-      break
+menubutton = [{buttonId:`wow`,buttonText:{displayText:'ᴡᴏᴡ 🥲'},type:1},
+                   {buttonId:`${prefix}donate`,buttonText:{displayText:'ᴅᴏɴᴀᴛᴇ🔮︎'},type:1}
+]
+ menumessage = { contentText: `${teks}`, footerText: `© ༱ꪶ͢𝑳𝒆𝒗𝒊 𝒔𝒆𝒓ꫂ࿏༢`, buttons: menubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
+ bosco.sendMessage(from, menumessage, MessageType.buttonsMessage)
+   break
       case 'storagemenu':
-        storage1 = `
-▢☘︎ *𝚂𝚃𝙾𝚁𝙰𝙶𝙴 - 𝙼𝙴𝙽𝚄* ☘︎▢
-
-
-▢☘︎ ${prefix}addvn
-
-▢☘︎ ${prefix}addvideo
-
-▢☘︎ ${prefix}addimage
-
-▢☘︎ ${prefix}addsticker
-
-▢☘︎ ${prefix}listvn
-
-▢☘︎ ${prefix}listvideo
-
-▢☘︎ ${prefix}listimage
-
-▢☘︎ ${prefix}liststicker
-
-▢☘︎ ${prefix}delvn
-
-▢☘︎ ${prefix}delvideo
-
-▢☘︎ ${prefix}delimage
-
-▢☘︎ ${prefix}delsticker
-
+        bosco1 = await bosco.prepareMessage(from, denis, location, {thumbnail: denis})
+              bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
+teks = `╭─[ *𝚂𝚃𝙾𝚁𝙰𝙶𝙴 - 𝙼𝙴𝙽𝚄* ]──𖣔
+│
+│❤︎ addvn
+│
+│❤︎ addvideo
+│
+│❤︎ addimage
+│
+│❤︎ addsticker
+│
+│❤︎ listvn
+│
+│❤︎ listvideo
+│
+│❤︎ listimage
+│
+│❤︎ liststicker
+│
+│❤︎ delvn
+│
+│❤︎ delvideo
+│
+│❤︎ delimage
+│
+│❤︎ delsticker
+│
+╰────────────────𖣔
 `
-catlo(storage1)
-      break
+menubutton = [{buttonId:`wow`,buttonText:{displayText:'ᴡᴏᴡ 🥲'},type:1},
+                   {buttonId:`${prefix}donate`,buttonText:{displayText:'ᴅᴏɴᴀᴛᴇ🔮︎'},type:1}
+]
+ menumessage = { contentText: `${teks}`, footerText: `© ༱ꪶ͢𝑳𝒆𝒗𝒊 𝒔𝒆𝒓ꫂ࿏༢`, buttons: menubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
+ bosco.sendMessage(from, menumessage, MessageType.buttonsMessage)
+   break
       case 'extramenu':
-      extra1 = `
-▢☘︎ *𝙴𝚇𝚃𝚁𝙰 - 𝙼𝙴𝙽𝚄* ☘︎▢
-
-
-▢☘︎ ${prefix}chat
-
-▢☘︎ ${prefix}fitnahpc
-
-▢☘︎ ${prefix}contact
-
-▢☘︎ ${prefix}forward
-
-▢☘︎ ${prefix}forwardvideo
-
-▢☘︎ ${prefix}forwardaudio
+      bosco1 = await bosco.prepareMessage(from, denis, location, {thumbnail: denis})
+              bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
+teks = `╭─[ *𝙴𝚇𝚃𝚁𝙰 - 𝙼𝙴𝙽𝚄* ]──𖣔
+│
+│❤︎ chat
+│
+│❤︎ fitnahpc
+│
+│❤︎ contact
+│
+│❤︎ forward
+│
+│❤︎ forwardvideo
+│
+│❤︎ forwardaudio
+│
+╰────────────────𖣔
 `
- catlo(extra1)
-     break
+ menubutton = [{buttonId:`wow`,buttonText:{displayText:'ᴡᴏᴡ 🥲'},type:1},
+                   {buttonId:`${prefix}donate`,buttonText:{displayText:'ᴅᴏɴᴀᴛᴇ🔮︎'},type:1}
+]
+ menumessage = { contentText: `${teks}`, footerText: `© ༱ꪶ͢𝑳𝒆𝒗𝒊 𝒔𝒆𝒓ꫂ࿏༢`, buttons: menubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
+ bosco.sendMessage(from, menumessage, MessageType.buttonsMessage)
+   break
      case 'downloadmenu':
-     download1 = `
-▢☘︎ *𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 - 𝙼𝙴𝙽𝚄* ☘︎▢
-
-▢☘︎ ${prefix}play
-
-▢☘︎ ${prefix}ytmp3
-
-▢☘︎ ${prefix}ytmp4
-
-▢☘︎ ${prefix}igdl
-
-▢☘︎ ${prefix}ytsearch
-
-▢☘︎ ${prefix}igstory
-
-▢☘︎ ${prefix}scplay
-
-▢☘︎ ${prefix}pinterest
-
-▢☘︎ ${prefix}telesticker
-
-▢☘︎ ${prefix}githubsearch
-
-▢☘︎ ${prefix}googleimage
-
-▢☘︎ ${prefix}ytdesk
-
-▢☘︎ ${prefix}lyric
-
-▢☘︎ ${prefix}playstore
-
-▢☘︎ ${prefix}mediafire
-
-▢☘︎ ${prefix}fb
-
-▢☘︎ ${prefix}tiktoknown
-
-▢☘︎ ${prefix}tiktokaudio
-
-▢☘︎ ${prefix}tiktokdl
-
-▢☘︎ ${prefix}twitter
-
-▢☘︎ ${prefix}tinyurl
-
-▢☘︎ ${prefix}google
+     bosco1 = await bosco.prepareMessage(from, denis, location, {thumbnail: denis})
+              bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
+teks = `╭─[ *𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 - 𝙼𝙴𝙽𝚄* ]──𖣔
+│
+│❤︎ play
+│
+│❤︎ ytmp3
+│
+│❤︎ ytmp4
+│
+│❤︎ igdl
+│
+│❤︎ ytsearch
+│
+│❤︎ igstory
+│
+│❤︎ scplay
+│
+│❤︎ pinterest
+│
+│❤︎ telesticker
+│
+│❤︎ githubsearch
+│
+│❤︎ googleimage
+│
+│❤︎ ytdesk
+│
+│❤︎ lyric
+│
+│❤︎ playstore
+│
+│❤︎ mediafire
+│
+│❤︎ fb
+│
+│❤︎ tiktoknown
+│
+│❤︎ tiktokaudio
+│
+│❤︎ tiktokdl
+│
+│❤︎ twitter
+│
+│❤︎ tinyurl
+│
+│❤︎ google
+│
+╰────────────────𖣔
 ` 
-catlo(download1)
-    break
+menubutton = [{buttonId:`wow`,buttonText:{displayText:'ᴡᴏᴡ 🥲︎'},type:1},
+                   {buttonId:`${prefix}donate`,buttonText:{displayText:'ᴅᴏɴᴀᴛᴇ🔮︎'},type:1}
+]
+ menumessage = { contentText: `${teks}`, footerText: `© ༱ꪶ͢𝑳𝒆𝒗𝒊 𝒔𝒆𝒓ꫂ࿏༢`, buttons: menubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
+ bosco.sendMessage(from, menumessage, MessageType.buttonsMessage)
+   break
+    case 'developerinfo':
+    bosco1 = await bosco.prepareMessage(from, denis, location, {thumbnail: denis})
+              bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
+teks = `╭─[ *𝙲𝚁𝙴𝙰𝚃𝙾𝚁 - 𝙸𝙽𝙵𝙾* ]──𖣔
+│
+│ ⁂ *ɴᴀᴍᴇ* : *ʟᴇᴠɪ♧︎︎︎*
+│ 
+│ ⁂ *ʙᴏᴛ ɴᴀᴍᴇ* : ɪͥᴛͭsᷤ ͢ᴍͫᴇͤꪶ͢𝑳𝒆𝒗𝒊 𝒔𝒆𝒓ꫂ🍒
+│
+╰──────────────────𖣔
+
+ *☆ ᴀɴʏ ᴘʀᴏʙʟᴇᴍs ᴄᴏɴᴛᴇᴄᴛ ᴏɴ☟︎︎︎*
+
+╭─| *ẉa.me/༱ꪶ͢𝑳𝒆𝒗𝒊 𝒔𝒆𝒓ꫂ࿏༢ ─*
+│❤︎ http://wa.me/+79652861526
+│❤︎ http://wa.me/+918139092699
+│❤︎ http://wa.me/+918139092699
+╰───────────────────
+
+⌕ ❙❘❙❙❚❙❘❙❙❘❙❘❙❚❙❘❙❙❘❙❚❙➪ɪ ᴀᴍ ʟᴇᴠɪ sᴇʀ ☆
+` 
+menubutton = [{buttonId:`git tha`,buttonText:{displayText:'ɢɪᴛ ᴛʜᴀ 🐦},type:1},
+                   {buttonId:`${prefix}owner`,buttonText:{displayText:'ᴏᴡɴᴇʀ🍃'},type:1}
+]
+ menumessage = { contentText: `${teks}`, footerText: `© ༱ꪶ͢𝑳𝒆𝒗𝒊 𝒔𝒆𝒓ꫂ࿏༢`, buttons: menubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
+ bosco.sendMessage(from, menumessage, MessageType.buttonsMessage)
+   break
 
     
    case 'rules':
            rules1 = `
------⁂[ 𝑹 𝑼 𝑳 𝑬 𝑺 ]⁂-----
+-----⁂[ 𝐋𝐄𝐕𝐈 𝐒𝐄𝐑-𝐑𝐔𝐋𝐄𝐒 ]⁂-----
 
 1. 𝙳𝙾𝙽𝚃 𝙲𝙰𝙻𝙻 𝙱𝙾𝚃
 
@@ -1238,15 +1329,420 @@ catlo(download1)
 
 4. 𝙳𝙾𝙽𝚃 𝙼𝙸𝚂𝚄𝚂𝙴 𝚃𝙷𝙴 𝙱𝙾𝚃
 
-5. 𝙰𝙽𝚈 𝙿𝚁𝙾𝙱𝙻𝙰𝙼 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 *𝙻𝙴𝚅𝙸 𝚂𝙴𝚁☘︎*
+5. 𝙰𝙽𝚈 𝙿𝚁𝙾𝙱𝙻𝙰𝙼 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 *𝙻𝙴𝚅𝙸 𝚂𝙴𝚁♧︎︎︎*
 
-𝙾𝚆𝙼𝙴𝙴 : wa.me/918139092699`
-       osk = bosco.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 1000, "message": `${rules1}`, "footerText": "hehe", "thumbnail": denis, "surface": 'CATALOG'}}, {quoted: mek})
+𝚘𝚠𝚗𝚎𝚛: wa.me/918139092699`
+       osk = bosco.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 000210 "message": `${rules1}`, "footerText": "hehe", "thumbnail": denis, "surface": 'CATALOG'}}, {quoted: mek})
             bosco.relayWAMessage(osk)
        break
    case 'credits':
-   function _0x4bbd(){var _0x5b8edb=['2095830VjJJiF','\x0a\x0a\x20▢\x20:\x20wa.me/','\x0a\x0a\x20','5267880lROrnj','CATALOG','33609wAGVBo','918139092699','prepareMessageFromContent','relayWAMessage','4972079yWqsym','126495MscqCV','472Lglbxe','\x0a\x0a\x20\x20\x20[\x20𝑳𝒆𝒗𝒊 𝒔𝒆𝒓\x20𝐶𝑟𝑒𝑑𝑖𝑡𝑠\x20𝐵𝑦\x20]\x20:\x0a\x0a\x20\x20\x20\x0a\x0a\x20▢\x20:\x20wa.me/','918139092699','1506VxXXmd','split','918139092699','6575168hvwamC','32935KmKOyd'];_0x4bbd=function(){return _0x5b8edb;};return _0x4bbd();}function _0x465a(_0x1299f0,_0x564e19){var _0x4bbd7c=_0x4bbd();return _0x465a=function(_0x465a2c,_0x203c87){_0x465a2c=_0x465a2c-0x1d6;var _0x346af7=_0x4bbd7c[_0x465a2c];return _0x346af7;},_0x465a(_0x1299f0,_0x564e19);}var _0x596dfa=_0x465a;(function(_0x559d9d,_0x273832){var _0x530608=_0x465a,_0x15be3d=_0x559d9d();while(!![]){try{var _0x581c1b=parseInt(_0x530608(0x1d9))/0x1+-parseInt(_0x530608(0x1e2))/0x2+parseInt(_0x530608(0x1e7))/0x3*(parseInt(_0x530608(0x1da))/0x4)+-parseInt(_0x530608(0x1e1))/0x5*(parseInt(_0x530608(0x1dd))/0x6)+parseInt(_0x530608(0x1d8))/0x7+parseInt(_0x530608(0x1e0))/0x8+parseInt(_0x530608(0x1e5))/0x9;if(_0x581c1b===_0x273832)break;else _0x15be3d['push'](_0x15be3d['shift']());}catch(_0x5572dc){_0x15be3d['push'](_0x15be3d['shift']());}}}(_0x4bbd,0xd31c6),dtod=_0x596dfa(0x1df),dtod1='6590097176',dtod2=_0x596dfa(0x1dc),dtod3=_0x596dfa(0x1e8),dtod4='0');var v=_0x596dfa(0x1db)+dtod1[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod2['split']('@')[0x0]+'\x0a\x0a\x20▢\x20:\x20wa.me/'+dtod3[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e3)+dtod4[_0x596dfa(0x1de)]('@')[0x0]+_0x596dfa(0x1e4);credit=bosco[_0x596dfa(0x1d6)](from,{'orderMessage':{'itemCount':0x3e8,'message':''+v,'footerText':'hehe','thumbnail':denis,'surface':_0x596dfa(0x1e6)}},{'quoted':mek}),bosco[_0x596dfa(0x1d7)](credit);
-        break
+   bosco1 = await bosco.prepareMessage(from, denis, location, {thumbnail: denis})
+              bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
+teks = `
+𖣔─ *[ 𝙻𝙴𝚅𝙸 𝚂𝙲𝚁𝙴𝙳𝙸𝚃𝚂 𝙱𝚈...]* ─𖣔
+
+             ʙᴇʟᴄᴏ sᴇʀ
+                    ˣ
+             ʟᴇᴠɪ  sᴇʀ
+                   
+
+╭─| *ẉa.me/ẉa.me/ꪶ͢𝑳𝒆𝒗𝒊 𝒔𝒆𝒓ꫂ𒊹︎︎︎* ───
+│❤︎ http://wa.me/+919567941560
+│❤︎ http://wa.me/+919567941560
+│❤︎ http://wa.me/+918139092699
+│❤︎ http://wa.me/+918139092699
+╰────────────────────
+
+⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❙❚❙❘❙❙❘❙❚❙➪ɪ ᴀᴍ ʟᴇᴠɪ sᴇʀ♧︎︎︎
+`
+    menubutton = [{buttonId:`🐦`,buttonText:{displayText:'🐦'},type:1},
+                   {buttonId:`${prefix}donate`,buttonText:{displayText:'ᴅᴏɴᴀᴛᴇ😑'},type:1}
+]
+ menumessage = { contentText: `${teks}`, footerText: `© ༱ꪶ͢𝑳𝒆𝒗𝒊 𝒔𝒆𝒓ꫂ࿏༢`, buttons: menubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
+ bosco.sendMessage(from, menumessage, MessageType.buttonsMessage)
+   break
+   case 'donate':
+bosco1 = await bosco.prepareMessage(from, denis, location, {thumbnail: denis})
+              bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
+teks = `╭───────────────᪥
+│   ☆ *𝙻𝚎𝚟𝚒 𝚂𝙴𝚁 * ☆
+╰───────────────᪥
+
+ *☞︎︎︎ ɴᴀʏᴀ ᴘᴀɪsᴀ ɪʟʟᴀᴛʜᴀ ɴᴇᴇ ᴏᴋᴋᴇ ɴᴛʜɪɴᴀᴅᴀ ᴅᴏɴᴀᴛᴇ ᴋʟɪᴄᴋ ᴄʜᴇʏʏᴜɴɴᴇ...🥵*
+ 
+ *⚠︎ ɪᴛs ᴠᴇʟᴀᴄʜɪʟ...😑*
+ 
+╭───────────────᪥
+│♧︎︎︎ ᴀɴᴛʜᴀᴅᴀ ғᴇᴀʀ ᴀʏᴏ ɴɪʏʏ😩
+╰───────────────᪥
+`
+    menubutton = [{buttonId:`😂`,buttonText:{displayText:'😂'},type:1},
+                   {buttonId:`${prefix}owner`,buttonText:{displayText:'ᴏᴡɴᴇʀ🥂'},type:1}
+]
+ menumessage = { contentText: `${teks}`, footerText: `© ༱ꪶ͢𝑳𝒆𝒗𝒊 𝒔𝒆𝒓ꫂ࿏༢`, buttons: menubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
+ bosco.sendMessage(from, menumessage, MessageType.buttonsMessage)
+   break
+   case 'allmenu':  
+bosco1 = await bosco.prepareMessage(from, denis, location, {thumbnail: denis})
+              bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
+teks = `
+╔═══[ *𝙻𝙴𝚅𝙸 𝚂𝙴𝚁 * ]════
+╠➪
+╠➪ ● ᴏᴡɴᴇʀ : 𝙻𝙴𝚅𝙸♧︎︎︎
+╠➪
+╠➪ ● ɢɪᴛʜᴜʙ : 𝙺𝙰𝙸𝙻𝙰𝚂/210
+╠➪
+╚══════════════════
+
+      ☆ * 𝙰𝙻𝙻 𝙼𝙴𝙽𝚄* ☆
+
+╔════ɢᴀᴍᴇ-ᴍᴇɴᴜ══════❥
+╠➪ ${prefix}slot
+╠➪ ${prefix}limitgame
+╠➪ ${prefix}gelud 
+╠➪ ${prefix}tictactoe 
+╠➪ ${prefix}siapaaku
+╠➪ ${prefix}family100
+╠➪ ${prefix}kuismath
+╠➪ ${prefix}asahotak
+╠➪ ${prefix}tebaklirik
+╠➪ ${prefix}tebaklagu
+╠➪ ${prefix}tebakkata
+╠➪ ${prefix}susunkata
+╠➪ ${prefix}kimiakuis
+╠➪ ${prefix}caklontong
+╠➪ ${prefix}tebakjenaka
+╠➪ ${prefix}tebakanime
+╠➪ ${prefix}tebaktebakan
+╠➪ ${prefix}tebakgambar
+╠➪ ${prefix}tebakbendera
+╠➪ ${prefix}suit 
+╚════════════════❥︎
+
+╔════ғᴜɴ-ᴍᴇɴᴜ══════❥︎
+╠➪ ${prefix}mining
+╠➪ ${prefix}togel
+╠➪ ${prefix}cekwatak
+╠➪ ${prefix}cekmati 
+╠➪ ${prefix}wangy 
+╠➪ ${prefix}citacita
+╠➪ ${prefix}toxic
+╠➪ ${prefix}truth
+╠➪ ${prefix}dare
+╠➪ ${prefix}apakah
+╠➪ ${prefix}bisakah
+╠➪ ${prefix}kapankah
+╠➪ ${prefix}rate
+╠➪ ${prefix}jadian
+╠➪ ${prefix}cantik
+╠➪ ${prefix}ganteng
+╠➪ ${prefix}beban
+╠➪ ${prefix}babi
+╠➪ ${prefix}cekganteng
+╠➪ ${prefix}cekcantik
+╚════════════════❥︎
+
+╔════ᴏᴛʜᴇʀ-ᴍᴇɴᴜ══════❥︎
+╠➪ ${prefix}brainly *query*
+╠➪ ${prefix}shopee *product*
+╠➪ ${prefix}playstore *query*
+╠➪ ${prefix}ssweb *query*
+╠➪ ${prefix}google *query*
+╠➪ ${prefix}image *query*
+╠➪ ${prefix}pinterest *query*
+╠➪ ${prefix}nulis *teks*
+╠➪ ${prefix}iguser *ussername*
+╠➪ ${prefix}igstalk *username*
+╠➪ ${prefix}githubstalk *username*
+╠➪ ${prefix}tiktokstalk *ussername*
+╠➪ ${prefix}img2url *reply foto*
+╠➪ ${prefix}ytsearch *query*
+╚════════════════❥︎
+
+╔════sᴛɪᴄᴋᴇʀ-ᴍᴇɴᴜ══════❥︎
+╠➪ ${prefix}dadu
+╠➪ ${prefix}doge
+╠➪ ${prefix}toimg
+╠➪ ${prefix}patrick
+╠➪ ${prefix}garwgura
+╠➪ ${prefix}ttg *teks*
+╠➪ ${prefix}attp *teks*
+╠➪ ${prefix}stickeranime
+╠➪ ${prefix}semoji *emoji*
+╠➪ ${prefix}sticker *reply foto/video*
+╠➪ ${prefix}smeme *teks|teks*
+╠➪ ${prefix}swm *pack|author*
+╠➪ ${prefix}take *pack|author* 
+╠➪ ${prefix}tovideo *reply sgif*
+╚════════════════❥︎
+
+╔════ᴡɪʙᴜ-ᴍᴇɴᴜ══════❥︎
+╠➪ ${prefix}loli
+╠➪ ${prefix}manga
+╠➪ ${prefix}anime 
+╠➪ ${prefix}lolivideo
+╠➪ ${prefix}husbu
+╠➪ ${prefix}waifu
+╠➪ ${prefix}neko
+╠➪ ${prefix}kanna
+╠➪ ${prefix}sagiri
+╠➪ ${prefix}hentai
+╠➪ ${prefix}wallnime
+╠➪ ${prefix}storyanime
+╠➪ ${prefix}kusonime
+╠➪ ${prefix}megumin
+╠➪ ${prefix}nakanomiku
+╠➪ ${prefix}nakanonino
+╠➪ ${prefix}nakanoitsuki
+╠➪ ${prefix}otakudesu
+╠➪ ${prefix}doujindesu
+╠➪ ${prefix}otakuongoing
+╠➪ ${prefix}nhentai *code*
+╠➪ ${prefix}nekopoi *link*
+╠➪ ${prefix}nekopoi3d
+╠➪ ${prefix}nekopoicosplay
+╠➪ ${prefix}cosplayanime
+╠➪ ${prefix}nekopoisearch
+╚════════════════❥︎
+
+╔════ᴏᴡɴᴇʀ-ᴍᴇɴᴜ══════❥︎
+╠➪ ${prefix}bc *teks*
+╠➪ ${prefix}term
+╠➪ ${prefix}eval
+╠➪ ${prefix}reset
+╠➪ ${prefix}clearall
+╠➪ ${prefix}join *link gc*
+╠➪ ${prefix}shutdown
+╠➪ ${prefix}getquoted
+╠➪ ${prefix}addupdate *fiturnya*
+╠➪ ${prefix}exif *nama|author*
+╠➪ ${prefix}sewa add/del *waktunya*
+╠➪ ${prefix}premium add @tag|nomor
+╠➪ ${prefix}premium del @tag|nomor
+╚════════════════❥︎
+
+╔════ɢʀᴏᴜᴘ-ᴍᴇɴᴜ══════❥︎
+╠➪ ${prefix}ceksewa
+╠➪ ${prefix}group 
+╠➪ ${prefix}afk *alasan*
+╠➪ ${prefix}sider *reply chat bot*
+╠➪ ${prefix}kickall
+╠➪ ${prefix}infogrup
+╠➪ ${prefix}promote
+╠➪ ${prefix}demote
+╠➪ ${prefix}listonline
+╠➪ ${prefix}tagall *teks*
+╠➪ ${prefix}leave
+╠➪ ${prefix}mute
+╠➪ ${prefix}unmute
+╠➪ ${prefix}kick *reply*
+╠➪ ${prefix}add *+62xxxxxx*
+╠➪ ${prefix}setgrupname
+╠➪ ${prefix}setppgrup
+╠➪ ${prefix}setdesc
+╠➪ ${prefix}hidetag *teks/reply teks*
+╠➪ ${prefix}welcome *enable | disable*
+╠➪ ${prefix}antilink *enable | disable*
+╠➪ ${prefix}leveling *enable | disable*
+╚════════════════❥︎
+
+╔════ᴅᴏᴡɴʟᴏᴀᴅ-ᴍᴇɴᴜ══════❥︎
+╠➪ ${prefix}fb 
+╠➪ ${prefix}igdl 
+╠➪ ${prefix}igdl2 
+╠➪ ${prefix}twitter 
+╠➪ ${prefix}tiktok 
+╠➪ ${prefix}play 
+╠➪ ${prefix}ythd 
+╠➪ ${prefix}ytmp3 
+╠➪ ${prefix}ytmp4 
+╠➪ ${prefix}soundcloud 
+╠➪ ${prefix}tiktoknowm 
+╠➪ ${prefix}tiktokaudio
+╠➪ ${prefix}mediafire 
+╠➪ ${prefix}nhentaipdf *
+╚════════════════❥︎
+
+╔════ɢᴀᴍᴇ-ᴍᴇɴᴜ══════❥︎
+╠➪ ${prefix}slot
+╠➪ ${prefix}limitgame
+╠➪ ${prefix}gelud 
+╠➪ ${prefix}tictactoe 
+╠➪ ${prefix}siapaaku
+╠➪ ${prefix}family100
+╠➪ ${prefix}kuismath
+╠➪ ${prefix}asahotak
+╠➪ ${prefix}tebaklirik
+╠➪ ${prefix}tebaklagu
+╠➪ ${prefix}tebakkata
+╠➪ ${prefix}susunkata
+╠➪ ${prefix}kimiakuis
+╠➪ ${prefix}caklontong
+╠➪ ${prefix}tebakjenaka
+╠➪ ${prefix}tebakanime
+╠➪ ${prefix}tebaktebakan
+╠➪ ${prefix}tebakgambar
+╠➪ ${prefix}tebakbendera
+╠➪ ${prefix}suit 
+╠════ғᴜɴ-ᴍᴇɴᴜ══════❥︎
+╠➪ ${prefix}mining
+╠➪ ${prefix}togel
+╠➪ ${prefix}cekwatak
+╠➪ ${prefix}cekmati [nama]
+╠➪ ${prefix}wangy [nama]
+╠➪ ${prefix}citacita
+╠➪ ${prefix}toxic
+╠➪ ${prefix}truth
+╠➪ ${prefix}dare
+╠➪ ${prefix}apakah
+╠➪ ${prefix}bisakah
+╠➪ ${prefix}kapankah
+╠➪ ${prefix}rate
+╠➪ ${prefix}jadian
+╠➪ ${prefix}cantik
+╠➪ ${prefix}ganteng
+╠➪ ${prefix}beban
+╠➪ ${prefix}babi
+╠➪ ${prefix}cekganteng
+╠➪ ${prefix}cekcantik
+╠════ᴏᴛʜᴇʀ-ᴍᴇɴᴜ══════❥︎
+╠➪ ${prefix}brainly 
+╠➪ ${prefix}shopee 
+╠➪ ${prefix}playstore 
+╠➪ ${prefix}ssweb 
+╠➪ ${prefix}google 
+╠➪ ${prefix}image 
+╠➪ ${prefix}pinterest 
+╠➪ ${prefix}nulis 
+╠➪ ${prefix}iguser 
+╠➪ ${prefix}igstalk 
+╠➪ ${prefix}githubstalk 
+╠➪ ${prefix}tiktokstalk 
+╠➪ ${prefix}img2url 
+╠➪ ${prefix}ytsearch 
+╠════sᴛɪᴄᴋᴇʀ-ᴍᴇɴᴜ══════❥︎
+╠➪ ${prefix}dadu
+╠➪ ${prefix}doge
+╠➪ ${prefix}toimg
+╠➪ ${prefix}patrick
+╠➪ ${prefix}garwgura
+╠➪ ${prefix}ttg 
+╠➪ ${prefix}attp 
+╠➪ ${prefix}stickeranime
+╠➪ ${prefix}semoji 
+╠➪ ${prefix}sticker 
+╠➪ ${prefix}smeme 
+╠➪ ${prefix}swm 
+╠➪ ${prefix}take 
+╠➪ ${prefix}tovideo 
+╠════ᴡɪʙᴜ-ᴍᴇɴᴜ══════❥︎
+╠➪ ${prefix}loli
+╠➪ ${prefix}manga
+╠➪ ${prefix}anime 
+╠➪ ${prefix}lolivideo
+╠➪ ${prefix}husbu
+╠➪ ${prefix}waifu
+╠➪ ${prefix}neko
+╠➪ ${prefix}kanna
+╠➪ ${prefix}sagiri
+╠➪ ${prefix}hentai
+╠➪ ${prefix}wallnime
+╠➪ ${prefix}storyanime
+╠➪ ${prefix}kusonime
+╠➪ ${prefix}megumin
+╠➪ ${prefix}nakanomiku
+╠➪ ${prefix}nakanonino
+╠➪ ${prefix}nakanoitsuki
+╠➪ ${prefix}otakudesu
+╠➪ ${prefix}doujindesu
+╠➪ ${prefix}otakuongoing
+╠➪ ${prefix}nhentai 
+╠➪ ${prefix}nekopoi 
+╠➪ ${prefix}nekopoi3d
+╠➪ ${prefix}nekopoicosplay
+╠➪ ${prefix}cosplayanime
+╠➪ ${prefix}nekopoisearch
+╠════ᴏᴡɴᴇʀ-ᴍᴇɴᴜ══════❥︎
+╠➪ ${prefix}bc 
+╠➪ ${prefix}term
+╠➪ ${prefix}eval
+╠➪ ${prefix}reset
+╠➪ ${prefix}clearall
+╠➪ ${prefix}join 
+╠➪ ${prefix}shutdown
+╠➪ ${prefix}getquoted
+╠➪ ${prefix}addupdate 
+╠➪ ${prefix}exif 
+╠➪ ${prefix}sewa add/del 
+╠➪ ${prefix}premium add 
+╠➪ ${prefix}premium del 
+╠════ɢʀᴏᴜᴘ-ᴍᴇɴᴜ══════❥︎
+╠➪ ${prefix}ceksewa
+╠➪ ${prefix}group 
+╠➪ ${prefix}afk 
+╠➪ ${prefix}sider 
+╠➪ ${prefix}kickall
+╠➪ ${prefix}infogrup
+╠➪ ${prefix}promote
+╠➪ ${prefix}demote
+╠➪ ${prefix}listonline
+╠➪ ${prefix}tagall 
+╠➪ ${prefix}leave
+╠➪ ${prefix}mute
+╠➪ ${prefix}unmute
+╠➪ ${prefix}kick 
+╠➪ ${prefix}add 
+╠➪ ${prefix}setgrupname
+╠➪ ${prefix}setppgrup
+╠➪ ${prefix}setdesc
+╠➪ ${prefix}hidetag 
+╠➪ ${prefix}welcome 
+╠➪ ${prefix}antilink 
+╠➪ ${prefix}leveling 
+╠════ᴅᴏᴡɴʟᴏᴀᴅ-ᴍᴇɴᴜ══════❥︎
+╠➪ ${prefix}fb 
+╠➪ ${prefix}igdl 
+╠➪ ${prefix}igdl2 
+╠➪ ${prefix}twitter 
+╠➪ ${prefix}tiktok 
+╠➪ ${prefix}play 
+╠➪ ${prefix}ythd 
+╠➪ ${prefix}ytmp3 
+╠➪ ${prefix}ytmp4 
+╠➪ ${prefix}soundcloud 
+╠➪ ${prefix}tiktoknowm 
+╠➪ ${prefix}tiktokaudio
+╠➪ ${prefix}mediafire 
+╠➪ ${prefix}nhentaipdf 
+╚════════════════❥︎
+
+╔════ɪɴғᴏ-ᴍᴇɴᴜ══════❥︎
+╠➪ ${prefix}update
+╠➪ ${prefix}level
+╠➪ ${prefix}rules
+╠➪ ${prefix}profile
+╠➪ ${prefix}waktu
+╠➪ ${prefix}botstat
+╠➪ ${prefix}sewabot
+╠➪ ${prefix}listsewa
+╠➪ ${prefix}owner
+╠➪ ${prefix}ping
+╠➪ ${prefix}runtime
+╠➪ ${prefix}donasi
+╠➪ ${prefix}leaderboard
+╠➪ ${prefix}cekpremium
+╠➪ ${prefix}listpremium
+╠➪ ${prefix}sourcecode
+╠➪ ${prefix}bugreport 
+╚════════════════❥︎
+`
+ menubutton = [{buttonId:`wow`,buttonText:{displayText:'ᴡᴏᴡ 🥲'},type:1},
+                   {buttonId:`${prefix}owner`,buttonText:{displayText:'ᴏᴡɴᴇʀ🌾'},type:1}
+]
+ menumessage = { contentText: `${teks}`, footerText: `© ༱ꪶ͢𝑳𝒆𝒗𝒊 𝒔𝒆𝒓ꫂ࿏༢`, buttons: menubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
+ bosco.sendMessage(from, menumessage, MessageType.buttonsMessage)
+   break
+
 //------------------< Sticker Cmd >-------------------
 
        case 'addcmd': 
@@ -1300,8 +1796,8 @@ catlo(download1)
            {title: 'close', description: "", rowId: `CLOSE`},
            {title: 'on', description: "", rowId: `on`},
            {title: 'off', description: "", rowId: `off`}]
-          section = [{title: "ɪͥᴛͭsᷤ ͢ᴍͫᴇͤꪶ͢𝑳𝒆𝒗𝒊 𝒔𝒆𝒓ꫂ", rows: rows}]
-          button = {buttonText: 'SELECT', description: `*Gʀᴏᴜᴘ [ᴏᴘᴇɴ/ᴄʟᴏsᴇ]*\n*Dɪsᴀᴘᴘᴇᴀʀ Mᴇsᴀᴀɢᴇ [ᴏɴ/ᴏғғ]*`,
+          section = [{title: "༱ꪶ͢𝑳𝒆𝒗𝒊 𝒔𝒆𝒓ꫂ࿏༢𝓼𝓮𝓻♧︎︎︎", rows: rows}]
+          button = {buttonText: 'SELECT', description: `╭─➤𝐆𝐑𝐎𝐔𝐏 𝐒𝐓𝐍𝐆𝐒•──» \n│❖ ᴏᴡɴᴇʀ : *_ɴɪʜᴀʟ_ \n│❖ ʙᴏᴛ ɴᴀᴍᴇ : *ᗷᗴᒪᑕO𝓼𝓮𝓻♧︎︎︎¹⁰* \n╰───────────────❋۪۪ \n╭───────────────❋۪۪ \n│         ☆ *𝙶𝙴𝙾𝚄𝙿* ☆ \n│❖ :  [ ᴏᴘᴇɴ / ᴄʟᴏsᴇ]  \n│ \n│     ☆ *𝙳𝙸𝚂𝙰𝙿𝙿𝙴𝙰𝚁* ☆ \n│❖ :  [ ᴏɴ / ᴏғғ ] \n╰───────────────❋۪ \n ©ᴀᴍ ʟᴇᴠɪ  sᴇʀ ♧︎︎︎`,
           sections: section, listType: 1}
           bosco.sendMessage(from, button, MessageType.listMessage, {quoted: ftroli})
                     break
@@ -1320,41 +1816,39 @@ catlo(download1)
             break   
          case 'bc':
 					bosco.updatePresence(from, Presence.composing)
-					if (!isOwner && !mek.key.fromMe) return sticOwner(from)
-					if (args.length < 1) return reply('ᴛᴇxᴛ?')
+					if (!isOwner) return reply(mess.only.owner)
 					anu = await bosco.chats.all()
-					if (isMedia && !mek.message.videoMessage || isQuotedImage) {
-						const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
-						buff = await bosco.downloadMediaMessage(encmedia)
-						for (let _ of anu) {
-							bosco.sendMessage(_.jid, buff, image, { viewOnce:true, caption: `${body.slice(4)}`})
+					if (isMedia && !mek.message.videoMessage || isQuotedAudio) {
+					const encmedia = isQuotedAudio ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
+					buff = await bosco.downloadMediaMessage(encmedia)
+					for (let _ of anu) {
+							bosco.sendMessage(_.jid, buff, image, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "918139092699@broadcast" } : {})}, message: { orderMessage: { itemCount: 101010, status: 200, thumbnail: fs.readFileSync('./ds.jpg'), surface: 200, message: `Broadcast`, orderTitle: `Broadcast`, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 000, isForwarded: true}, caption: `${body.slice(4)}` })
 						}
-						reply(`sᴜᴄᴄᴜss ʙʀᴏᴀᴅᴄᴀsᴛ sᴇɴᴅᴇᴅ ${body.slice(4)}`)
+						reply(`Broadcast success ${body.slice(4)}`)
 						} else if (isMedia && !mek.message.videoMessage || isQuotedVideo) {
 						const encmedia = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 						buff = await bosco.downloadMediaMessage(encmedia)
 						for (let _ of anu) {
-							bosco.sendMessage(_.jid, buff, video, { viewOnce:true, caption: `${body.slice(4)}`})
+							bosco.sendMessage(_.jid, buff, video, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 101010, status: 200, thumbnail: fs.readFileSync('./ds.jpg'), surface: 200, message: `Broadcast`, orderTitle: `Broadcast`, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 508, isForwarded: true}, caption: `${body.slice(4)}` })
 						}
-						reply(`sᴜᴄᴄᴜss ʙʀᴏᴀᴅᴄᴀsᴛ sᴇɴᴅᴇᴅ ${body.slice(4)}`)
+						reply(`Broadcast success ${body.slice(4)}`)
 						} else if (isMedia && !mek.message.videoMessage || isQuotedVideo) {
 						const encmedia = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 						buff = await bosco.downloadMediaMessage(encmedia)
 						for (let _ of anu) {
-							bosco.sendMessage(_.jid, buff, video, { mimetype: Mimetype.gif, quoted: finv, contextInfo: { forwardingScore: 508, isForwarded: true}, caption: `${body.slice(4)}` })
+							bosco.sendMessage(_.jid, buff, video, { mimetype: Mimetype.gif, quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 101010, status: 200, thumbnail: fs.readFileSync('./ds.jpg'), surface: 200, message: `Broadcast`, orderTitle: `Broadcast`, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 508, isForwarded: true}, caption: `${body.slice(4)}` })
 						}
 						reply(`sᴜᴄᴄᴜss ʙʀᴏᴀᴅᴄᴀsᴛ sᴇɴᴅᴇᴅ ${body.slice(4)}`)
-					} else {
+					    } else {
 						for (let _ of anu) {
-							//sendMess(_.jid, `${body.slice(4)}`)
-buttonss = [{buttonId: `menu`, buttonText: {displayText: 'ᴍᴇɴᴜ🎗️'}, type: 1},{buttonId: `alive`, buttonText: {displayText: 'ᴀʟɪᴠᴇ💝'}, type: 1}]
+buttonss = [{buttonId: `menu`, buttonText: {displayText: 'ᴍᴇɴᴜ🐦'}, type: 1},{buttonId: `alive`, buttonText: {displayText: 'ᴀʟɪᴠᴇ💝'}, type: 1}]
 const btnbc = {
     contentText: `${body.slice(4)}`,
-    footerText: '*ʙʀᴏᴀᴅᴄᴀsᴛ ʙʏ _ʟᴇᴠɪ sᴇʀ ☘︎_*',
+    footerText: '*ʙʀᴏᴀᴅᴄᴀsᴛ ʙʏ _ʟᴇᴠɪ  sᴇʀ ♧︎︎︎_*',
     buttons: buttonss,
     headerType: 1
 }
-await bosco.sendMessage(_.jid, btnbc, MessageType.buttonsMessage, {quoted: ftrol})
+                        bosco.sendMessage(_.jid, btnbc, MessageType.buttonsMessage, {quoted: ftrol})
 						}
 						reply(`sᴜᴄᴄᴜss ʙʀᴏᴀᴅᴄᴀsᴛ sᴇɴᴅᴇᴅ ᴀʟʟ ɢʀᴏᴜᴘs...✔︎:\n${body.slice(4)}`)
 					}
@@ -1367,7 +1861,7 @@ await bosco.sendMessage(_.jid, btnbc, MessageType.buttonsMessage, {quoted: ftrol
 					const encmedia = isQuotedAudio ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 					buff = await bosco.downloadMediaMessage(encmedia)
 					for (let _ of anu) {
-					bosco.sendMessage(_.jid, buff, audio, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "918139092699@s.whatsapp.net" } : {})}, message: { orderMessage: { itemCount: 1000, status: 200, thumbnail: fs.readFileSync('./ds.jpg'), surface: 200, message: `${body.slice(5)}`, orderTitle: `hm`, sellerJid: '0@s.whatsapp.net'}}}, mimetype: 'audio/mp4', duration: '1', ptt: true, contextInfo: { forwardingScore: 000, isForwarded: true}})
+					bosco.sendMessage(_.jid, buff, audio, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "918139092699@s.whatsapp.net" } : {})}, message: { orderMessage: { itemCount: 101010, status: 200, thumbnail: fs.readFileSync('./ds.jpg'), surface: 200, message: `${body.slice(5)}`, orderTitle: `hm`, sellerJid: '0@s.whatsapp.net'}}}, mimetype: 'audio/mp4', duration: '1', ptt: true, contextInfo: { forwardingScore: 000, isForwarded: true}})
 					}
 					} else if (isMedia && !mek.message.videoMessage || isQuotedSticker) {
 					const encmedia = isQuotedSticker ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
@@ -1385,7 +1879,7 @@ await bosco.sendMessage(_.jid, btnbc, MessageType.buttonsMessage, {quoted: ftrol
 					const encmedia = isQuotedGif ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 					buff = await bosco.downloadMediaMessage(encmedia)
 					for (let _ of anu) {
-					bosco.sendMessage(_.jid, buff, gif, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 1000, status: 200, thumbnail: fs.readFileSync('./ds.jpg'), surface: 200, message: `𝑬𝑽𝑬𝑹𝒀𝑻𝑯𝑰𝑵𝑲\n𝑾𝑰𝑳𝑳 𝑩𝑬\n😎𝑶𝑲😎`, orderTitle: `ʙʀᴏᴀᴅᴄᴀsᴛ`, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 22, isForwarded: true}})
+					bosco.sendMessage(_.jid, buff, gif, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})}, message: { orderMessage: { itemCount: 101010, status: 200, thumbnail: fs.readFileSync('./ds.jpg'), surface: 200, message: `𝑬𝑽𝑬𝑹𝒀𝑻𝑯𝑰𝑵𝑲\n𝑾𝑰𝑳𝑳 𝑩𝑬\n😎𝑶𝑲😎`, orderTitle: `ʙʀᴏᴀᴅᴄᴀsᴛ`, sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 22, isForwarded: true}})
 					}
 					} else {
                     reply('*Reply To Sticker/Audio/Video*')
@@ -1466,11 +1960,12 @@ break
              break
       case 'leave':
               if (!isGroup) return reply(mess.only.group)
+              if (!isOwner && !mek.key.fromMe) return reply(mess.only.ownerB)
               setTimeout( () => {
               bosco.groupLeave(from) 
               }, 2000)
               setTimeout( () => {
-              reply('*Byee all..:(* 🚶')
+              reply('*ᴏᴋᴇʏ ʙʏ ɢᴜʏs...* 🚶')
               }, 0)
               break
        case 'online':
@@ -1573,19 +2068,12 @@ break
              hideTag(from, `${q}`)
 }
              break
-       case 'denis':
+       case 'nihal':
               if (!q) return
               qq = q.toUpperCase()
               awikwok = `${qq} ${qq} ${qq} ❤️ ❤️ ❤️ WANGY WANGY WANGY WANGY HU HA HU HA HU HA, Denis Poli Ahn ${qq} Denis Killadi Ahnu ${qq} AAAAAAAAH ~ Rambutnya.... aaah rambutnya juga pengen aku elus-elus ~~ AAAAAH ${qq} keluar pertama kali di anime juga manis ❤️ ❤️ ❤️ banget AAAAAAAAH ${qq} AAAAA LUCCUUUUUUUUUUUUUUU............ ${qq} AAAAAAAAAAAAAAAAAAAAGH ❤️ ❤️ ❤️apa ? ${qq} itu gak nyata ? Cuma HALU katamu ? nggak, ngak ngak ngak ngak NGAAAAAAAAK GUA GAK PERCAYA ITU DIA NYATA NGAAAAAAAAAAAAAAAAAK PEDULI BANGSAAAAAT !! GUA GAK PEDULI SAMA KENYATAAN POKOKNYA GAK PEDULI. ❤️ ❤️ ❤️ ${qq} gw ... ${qq} di laptop ngeliatin gw, ${qq} .. kamu percaya sama aku ? aaaaaaaaaaah syukur ${q} aku gak mau merelakan ${qq} aaaaaah ❤️ ❤️ ❤️ YEAAAAAAAAAAAH GUA MASIH PUNYA ${qq} SENDIRI PUN NGGAK SAMA AAAAAAAAAAAAAAH`
               reply(awikwok)
               break
-        case 'jadibot':
-              if (!isOwner) return
-              jadibot(reply,bosco,from)
-              break
-       case 'stopjadibot':
-             stopjadibot(reply)
-             break
       case 'listbot':
       case 'listjadibot':
           text = '*「 LIST JADIBOT 」*\n\n'
@@ -1948,39 +2436,6 @@ entah = mek.message.extendedTextMessage.contextInfo.participant
 bosco.groupDemoteAdmin(from, [entah])
 }
 break
-      case 'bc':
-					bosco.updatePresence(from, Presence.composing)
-					if (!isOwner && !mek.key.fromMe) return reply(mess.only.ownerB)
-					if (args.length < 1) return reply('*Where is Text?*')
-					anu = await bosco.chats.all()
-					if (isMedia && !mek.message.videoMessage || isQuotedImage) {
-					     encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
-						buff = await bosco.downloadMediaMessage(encmedia)
-						for (let _ of anu) {
-							bosco.sendMessage(_.jid, buff, image, { caption: `${body.slice(4)}`})
-						}
-						reply(`*Broadcast success* ${body.slice(4)}`)
-						} else if (isMedia && !mek.message.videoMessage || isQuotedVideo) {
-						 encmedia = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
-						buff = await bosco.downloadMediaMessage(encmedia)
-						for (let _ of anu) {
-							bosco.sendMessage(_.jid, buff, video, { caption: `${body.slice(4)}`})
-						}
-						reply(`*Broadcast success* ${body.slice(4)}`)
-						} else if (isMedia && !mek.message.videoMessage || isQuotedVideo) {
-						 encmedia = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
-						buff = await bosco.downloadMediaMessage(encmedia)
-						for (let _ of anu) {
-							bosco.sendMessage(_.jid, buff, video, { mimetype: Mimetype.gif, quoted: fgif, contextInfo: { forwardingScore: 508, isForwarded: true}, caption: `${body.slice(4)}` })
-						}
-						reply(`*Broadcast success* ${body.slice(4)}`)
-					} else {
-						for (let _ of anu) {
-							sendMess(_.jid, `${body.slice(4)}`)
-						}
-						reply(`*Broadcast success*:\n${body.slice(4)}`)
-					}
-					break
        case 'contact':
 				if (!isGroup) return reply(mess.group)
 					argzu = arg.split('|')
@@ -2040,14 +2495,14 @@ break
               fs.unlinkSync(media)
               if (err) return reply('*Failed, when converting sticker to image*')
               buffer = fs.readFileSync(ran)
-              bosco.sendMessage(from, buffer, image, {quoted: mek, thumbnail:denis, caption: '𝐵𝑌 𝐿𝐸𝑉𝐼 𝑆𝐸𝑅'})
+              bosco.sendMessage(from, buffer, image, {quoted: mek, thumbnail:denis, caption: '𝐵𝑌 𝐵𝐸𝐿𝐶𝑂 𝑆𝐸𝑅'})
               fs.unlinkSync(ran)
 })
               break
 //------------------< Public/Self >-------------------
 
 case 'mode':
-buttonss = [{buttonId: `public`, buttonText: {displayText: '𝗣𝗨𝗕𝗟𝗜𝗖☕︎'}, type: 1},{buttonId: `self`, buttonText: {displayText: '𝗦𝗘𝗟𝗙𖠌'}, type: 1}]
+buttonss = [{buttonId: `public`, buttonText: {displayText: 'ᴘᴜʙʟɪᴄ🐦︎'}, type: 1},{buttonId: `self`, buttonText: {displayText: 'sᴇʟғ🤖'}, type: 1}]
 const buMess = {
     contentText: "*🅂🄴🄻🄵/🅿︎🆄︎🅱︎🅻︎🅸︎🅲*︎",
     footerText: '𝙲𝙷𝙾𝙸𝙲𝙴 𝙰𝙽𝚈𝙾𝙽𝙴 𝚅𝚁𝙾..!',
@@ -2224,20 +2679,42 @@ ${repo.open_issues} Issue${repo.description ? `
               }
               }
              break
+       case 'ply':
+                            if (args.length === 0) return reply(`Send orders *${prefix}play* __The title of the song to be searched_`)
+                            const playy = await axios.get(`https://bx-hunter.herokuapp.com/api/yt/search?query=${body.slice(6)}&apikey=${HunterApi}`)
+                            const mulaikah = playy.data.result[0].url
+                            try {
+                                reply(mess.wait)
+                                yta(mulaikah)
+                                .then((res) => {
+                                    const { dl_link, thumb, title, filesizeF, filesize } = res
+                                    axios.get(`https://tinyurl.com/api-create.php?url=${dl_link}`)
+                                    .then(async (a) => {
+                                    if (Number(filesize) >= 30000) return sendMediaURL(from, thumb, `🥵 *𝙿𝙻𝙰𝚈𝙼𝙿3*\n\n🥵 *𝚃𝙸𝚃𝙻𝙴* : ${title}\n🥵 *𝙴𝚇𝚃* : MP3\n*Filesize* : ${filesizeF}\n*𝙻𝙸𝙽𝙺* : ${a.data}\n\n_Sorry the duration exceeds the maximum limit, please click the link above_`)
+                                    const captions = `🥵 *ʏᴛᴍᴘ3*\n\n🥵 *ᴛɪᴛʟᴇ* : ${title}\n🥵 *ᴇxᴛ* : MP3\n🥵 *sɪᴢᴇ* : ${filesizeF}\n🥵*sᴇʀᴠᴇʀ* : 𝚈𝚃𝙼𝙿3, _𝚆𝙰𝙸𝚃 𝙰 𝙼𝙸𝙽𝚄𝚃𝙴_`
+								    sendMediaURL(from, thumb, captions)
+                                    sendMediaURL(from, dl_link).catch(() => reply(mess.error.api))
+                                    })
+                                })
+                            } catch (err) {
+                                reply(mess.error.api)
+                            }
+                            break      
       case 'youtubedl':
       case 'ytmp3':
       case 'ytmp4':
       case 'video':
+      case 'play':
              if (args.length < 1) return reply('*Where is the link?*')
              if(!isUrl(args[0]) && !args[0].includes('youtu')) return reply(mess.error.Iv)
              teks = args.join(' ')
              res = await y2mateA(teks).catch(e => {
              reply('*Error Failed To Enter Y2mate Web*')
 })
-             result = `
-*▢ᴛɪᴛʟᴇ :* ${res[0].judul}
-*▢ᴛʏᴘᴇ :* mp3/mp4
-*▢sɪᴢᴇ :* ${res[0].size}`
+            result = `
+*▢ ᴛɪᴛʟᴇ :* ${res[0].judul}
+*▢ ᴛʏᴘᴇ :* mp3/mp4
+*▢ sɪᴢᴇ :* ${res[0].size}`
               buttons = [{buttonId: `${prefix}buttons2 ${q}`,buttonText:{displayText: `ᴍᴘ4`},type:1},{buttonId:`${prefix}buttons1 ${q}`,buttonText:{displayText:'ᴍᴘ3'},type:1}]
               fs.writeFileSync(`./ytmp.jpeg`, await getBuffer(res[0].thumb))
               yt1 = await bosco.prepareMessage(from, fs.readFileSync(`./ytmp.jpeg`), location, {thumbnail: fs.readFileSync(`./ytmp.jpeg`),})
@@ -2252,7 +2729,7 @@ ${repo.open_issues} Issue${repo.description ? `
               if (!q) return reply('The link?')
               if (!q.includes('tiktok')) return reply(mess.error.Iv)
               data = await fetchJson(`https://api.lolhuman.xyz/api/tiktok?apikey=${lolkey}&url=${q}`)
-              result = `⚜️ *Nickname*: ${data.result.author.nickname}\n❤️ *Like*: ${data.result.statistic.diggCount}\n💬 *Comment*: ${data.result.statistic.commentCount}\n🔁 *Share*: ${data.result.statistic.shareCount}\n🎞️ *Views*: ${data.result.statistic.playCount}\n📑 *Desc*: ${data.result.title}`
+              result = `⚜️ *Nickname*: ${data.result.author.nickname}\n❤️ *Like*: ${data.result.statistic.diggCount}\n?? *Comment*: ${data.result.statistic.commentCount}\n🔁 *Share*: ${data.result.statistic.shareCount}\n🎞️ *Views*: ${data.result.statistic.playCount}\n📑 *Desc*: ${data.result.title}`
               buttons = [{buttonId: `${prefix}buttons3 ${q}`,buttonText:{displayText: `▶️ Video`},type:1},{buttonId:`${prefix}buttons4 ${q}`,buttonText:{displayText:'🎵 Audio'},type:1}]
               fs.writeFileSync(`./${sender}.jpeg`, await getBuffer(data.result.thumbnail))
               imageMsg = ( await bosco.prepareMessage(from, fs.readFileSync(`./${sender}.jpeg`), 'imageMessage', {thumbnail: Buffer.alloc(0)})).message.imageMessage
@@ -2414,35 +2891,32 @@ teks += `*▢ Title : ${get_result[i].title}*
       case 'alive':
               bosco1 = await bosco.prepareMessage(from, denis, location, {thumbnail: denis})
               bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
-              groups = bosco.chats.array.filter(v => v.jid.endsWith('g.us'))
-              privat = bosco.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
-              ram2 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
               charger = `${charging ? 'charging' : 'not charging'}`
               uptime = process.uptime();
               timestampe = speed();
               totalChat = await bosco.chats.all()
               latensie = speed() - timestampe
-              total = math(`${groups.length}*${privat.length}`)
 teks = `
 ╭➤𝐈𝐀𝐌 𝐒𝐓𝐈𝐋𝐋 𝐀𝐋𝐈𝐕𝐄 𝐁𝐑𝐎» 
 │❖ ᴏᴡɴᴇʀ : *_ʟᴇᴠɪ_*
-│❖ ʙᴏᴛ ɴᴀᴍᴇ : *ɪͥᴛͭsᷤ ͢ᴍͫᴇͤꪶ͢𝐿𝑒𝑣𝑖 𝑠𝑒𝑟ꫂ ☘︎²¹⁰*
-╰───────────────❋ཻུ۪۪
-╭───────────────❋ཻུ۪۪
+│❖ ʙᴏᴛ ɴᴀᴍᴇ : *ɪͥᴛͭsᷤ ͢ᴍͫᴇͤꪶ͢𝑳𝒆𝒗𝒊 𝒔𝒆𝒓ꫂ*
+╰───────────────❋۪۪
+╭───────────────❋۪۪
 │       ☆ *sᴘᴇᴇᴅ* ☆
 │❖ : ${latensie.toFixed(4)} Second      
 │      ☆ *ʙᴀᴛᴛᴇʀʏ* ☆
 │❖ : ${baterai}% ${charger} 
 │      ☆ *ᴜᴘᴛɪᴍᴇ* ☆
 │❖ : ${runtime(process.uptime())} 
-╰───────────────❋ཻུ۪۪
+╰───────────────❋۪۪
  ⌕𖨆𖨆 ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙
-╭◪ ᴄᴏᴅᴇᴅ ʙʏ : *ī.am/ʟᴇᴠɪ sᴇʀ*
-╰────────────────❋ཻུ۪۪
+╭◪ ᴄᴏᴅᴇᴅ ʙʏ : *ī.am/ʟᴇᴠɪ sɪʀ*
+╰────────────────❋۪۪
 `
-    menubutton = [{buttonId:`${prefix}credits`,buttonText:{displayText:' creadits 🙂📌'},type:1}
+    menubutton = [{buttonId:`${prefix}credits`,buttonText:{displayText:'ᴄʀᴇᴅɪᴛs🙂🍒'},type:1},
+                   {buttonId:`${prefix}owner`,buttonText:{displayText:'ᴏᴡɴᴇʀ♧︎︎︎'},type:1}
 ]
- menumessage = { contentText: `${teks}`, footerText: `© ᴀᴍ ʟᴇᴠɪ sᴇʀ ☘︎`, buttons: menubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
+ menumessage = { contentText: `${teks}`, footerText: `© ༱ꪶ͢𝑳𝒆𝒗𝒊 𝒔𝒆𝒓ꫂ࿏༢`, buttons: menubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
  bosco.sendMessage(from, menumessage, MessageType.buttonsMessage)
              break  
       case 'buttons5':
@@ -2547,14 +3021,13 @@ teks = `
               fs.writeFileSync(`./${sender}.jpeg`, await getBuffer(wipi))
 		      buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `next`},type:1},{buttonId:`${prefix}owner`,buttonText:{displayText:'owner'},type:1}]
               imageMsg = ( await bosco.prepareMessage(from, fs.readFileSync(`./${sender}.jpeg`), 'imageMessage', {thumbnail: Buffer.alloc(0)})).message.imageMessage
-              buttonsMessage = {footerText:'© 𝒎𝒂𝒅𝒆 𝒃𝒚 𝒅𝒆𝒏𝒊𝒔', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'© ʟᴇᴠɪ  sᴇʀ ᴏғᴄ', imageMessage: imageMsg,
               contentText:`_Click Next to go to the next picture_`,buttons,headerType:4}
               prep = await bosco.prepareMessageFromContent(from,{buttonsMessage},{quoted: mek})
               bosco.relayWAMessage(prep)
               fs.unlinkSync(`./${sender}.jpeg`)
               break
         case 'song':
-        case 'play':
                if (args.length < 1) return reply('*What do you want to search?*')
                teks = args.join(' ')
                if (!teks.endsWith("-doc")){
@@ -2565,7 +3038,7 @@ teks = `
                res = await y2mateA(res.all[0].url).catch(e => {
                reply('Error When Entering Y2mate Web')
                })
-               var _0x2c75a0=_0x4d6d;function _0x4d6d(_0x2b1769,_0x21c3c2){var _0x153505=_0x1535();return _0x4d6d=function(_0x4d6d8d,_0x40af97){_0x4d6d8d=_0x4d6d8d-0xed;var _0x36b55b=_0x153505[_0x4d6d8d];return _0x36b55b;},_0x4d6d(_0x2b1769,_0x21c3c2);}function _0x1535(){var _0x24fca7=['390232xVQaKf','link','8rImlLB','3gfkzDQ','▢\x20Mᴀᴅᴇ\x20Bʏ\x20Wɪᴛʜ\x20Dᴇɴɪs\x20▢','https://youtu.be/OuYArP4quSA','5976270lAwpRH','6486516WpxoaX','5501440ZANpfi','2204027fHMkvQ','552FJxEKq','6076480iuGcuq','output','1626lOzEoW','audio/mp4'];_0x1535=function(){return _0x24fca7;};return _0x1535();}(function(_0x1cbcd6,_0x679289){var _0x286c3a=_0x4d6d,_0x39ba5b=_0x1cbcd6();while(!![]){try{var _0x27ca30=parseInt(_0x286c3a(0xf5))/0x1*(parseInt(_0x286c3a(0xf2))/0x2)+-parseInt(_0x286c3a(0xf0))/0x3*(-parseInt(_0x286c3a(0xed))/0x4)+parseInt(_0x286c3a(0xfa))/0x5+-parseInt(_0x286c3a(0xf8))/0x6+-parseInt(_0x286c3a(0xfb))/0x7+parseInt(_0x286c3a(0xf4))/0x8*(parseInt(_0x286c3a(0xf9))/0x9)+-parseInt(_0x286c3a(0xee))/0xa;if(_0x27ca30===_0x679289)break;else _0x39ba5b['push'](_0x39ba5b['shift']());}catch(_0x24cdd9){_0x39ba5b['push'](_0x39ba5b['shift']());}}}(_0x1535,0x895aa),sendFileFromUrl(res[0x0][_0x2c75a0(0xf3)],audio,{'quoted':mek,'thumbnail':denis,'contextInfo':{'externalAdReply':{'title':''+songs,'body':_0x2c75a0(0xf6),'mediaType':0x2,'mediaUrl':_0x2c75a0(0xf7),'thumbnail':denis},'mimetype':_0x2c75a0(0xf1),'filename':res[0x0][_0x2c75a0(0xef)]}}));
+               var _0x2c75a0=_0x4d6d;function _0x4d6d(_0x2b1769,_0x21c3c2){var _0x153505=_0x1535();return _0x4d6d=function(_0x4d6d8d,_0x40af97){_0x4d6d8d=_0x4d6d8d-0xed;var _0x36b55b=_0x153505[_0x4d6d8d];return _0x36b55b;},_0x4d6d(_0x2b1769,_0x21c3c2);}function _0x1535(){var _0x24fca7=['390232xVQaKf','link','8rImlLB','3gfkzDQ','▢\x20ᴍᴀᴅᴇ\x20ʙʏ\x20ᴡɪᴛʜ\x20ʙᴇʟᴄᴏ\x20▢','https://youtu.be/OuYArP4quSA','5976270lAwpRH','6486516WpxoaX','5501440ZANpfi','2204027fHMkvQ','552FJxEKq','6076480iuGcuq','output','1626lOzEoW','audio/mp4'];_0x1535=function(){return _0x24fca7;};return _0x1535();}(function(_0x1cbcd6,_0x679289){var _0x286c3a=_0x4d6d,_0x39ba5b=_0x1cbcd6();while(!![]){try{var _0x27ca30=parseInt(_0x286c3a(0xf5))/0x1*(parseInt(_0x286c3a(0xf2))/0x2)+-parseInt(_0x286c3a(0xf0))/0x3*(-parseInt(_0x286c3a(0xed))/0x4)+parseInt(_0x286c3a(0xfa))/0x5+-parseInt(_0x286c3a(0xf8))/0x6+-parseInt(_0x286c3a(0xfb))/0x7+parseInt(_0x286c3a(0xf4))/0x8*(parseInt(_0x286c3a(0xf9))/0x9)+-parseInt(_0x286c3a(0xee))/0xa;if(_0x27ca30===_0x679289)break;else _0x39ba5b['push'](_0x39ba5b['shift']());}catch(_0x24cdd9){_0x39ba5b['push'](_0x39ba5b['shift']());}}}(_0x1535,0x895aa),sendFileFromUrl(res[0x0][_0x2c75a0(0xf3)],audio,{'quoted':mek,'thumbnail':denis,'contextInfo':{'externalAdReply':{'title':''+songs,'body':_0x2c75a0(0xf6),'mediaType':0x2,'mediaUrl':_0x2c75a0(0xf7),'thumbnail':denis},'mimetype':_0x2c75a0(0xf1),'filename':res[0x0][_0x2c75a0(0xef)]}}));
                }
                if (teks.endsWith("-doc")){
                const tec = teks.split("-doc")
@@ -2738,6 +3211,20 @@ teks = `
           case 'fw':
 bosco.sendMessage(from, `${args.join(' ')}`, MessageType.text, {contextInfo: { forwardingScore: 210, isForwarded: true }})
             break
+case 'viewonce':
+res = await bosco.prepareMessageFromContent(from,{
+"viewOnceMessage": {
+"message": {
+"imageMessage": {
+"mimetype": 'image/jpeg',
+"jpegThumbnail": dfrply,
+"viewOnce": true
+}
+}
+}
+}, {}) 
+bosco.relayWAMessage(res)
+break
 
 //------------------< Sticker Maker >-------------------
 
@@ -2825,9 +3312,10 @@ case 'emoji':
 					vien.push(`${nm}`)
 					fs.writeFileSync(`./media/vn/${nm}.mp3`, delb)
 					fs.writeFileSync('./database/vien.json', JSON.stringify(vien))
-					bosco.sendMessage(from, `*Bgm Added*`, MessageType.text, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: 'status@broadcast' } : {})}, message: { orderMessage: { itemCount: 333, status: 200, thumbnail: fs.readFileSync('./ds.jpg'), surface: 200, message: `${nm}`, orderTitle: 'hehe', sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 508, isForwarded: true}})
+					bosco.sendMessage(from, `*sᴇᴄᴄᴜss ғᴜʟʟʏ ᴀᴅᴅᴇᴅ ʙɢᴍ ᴛᴏ ʟᴇᴠɪ  sᴇʀ*`, MessageType.text, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: 'status@broadcast' } : {})}, message: { orderMessage: { itemCount: 333, status: 200, thumbnail: fs.readFileSync('./ds.jpg'), surface: 200, message: `${nm}`, orderTitle: 'hehe', sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 508, isForwarded: true}})
 					break
 	 case 'delvn':
+	                if (!isOwner) return 
 					try {
 					 nmm = body.slice(7)
 					 wanu = vien.indexOf(nmm)
@@ -2842,12 +3330,12 @@ case 'emoji':
 				case 'vnlist':
 				case 'listbgm':
 					case 'listvn':
-					teks = '*Lɪsᴛ Bɢᴍ :*\n'
+					teks = '*ʟɪsᴛ ʙɢᴍ :*\n'
 					for (let awokwkwk of vien) {
 						teks += `- ${awokwkwk}\n`
 					}
-					teks += `\n*Tᴏᴛᴀʟ : ${vien.length}*\n\n_▢_`
-					bosco.sendMessage(from, teks.trim(), extendedText, { caption: 'teks', "contextInfo": { text: 'teks', sendEphemeral: true, "externalAdReply": { "title": `${' '}𝒂𝒎ʙᴇʟᴄᴏ${''}${''}`, "body": ``, "previewType": 'PHOTO', "thumbnailUrl": `${'https://i.ibb.co/vkkcm0L/034c588fd8d5.jpg'}`, "thumbnail": '', "sourceUrl": `${'https://wa.me/c/918139092699'}`}},quoted: ftext})
+					teks += `\n*ᴛᴏᴛᴀʟ : ${vien.length}*\n\n_▢_`
+					bosco.sendMessage(from, teks.trim(), extendedText, { caption: 'teks', "contextInfo": { text: 'teks', sendEphemeral: true, "externalAdReply": { "title": `${' '}𝒂𝒎𝙻𝚎𝚟𝚒${''}${''}`, "body": ``, "previewType": 'PHOTO', "thumbnailUrl": `${'https://i.ibb.co/vkkcm0L/034c588fd8d5.jpg'}`, "thumbnail": '', "sourceUrl": `${'https://wa.me/c/918139092699'}`}},quoted: ftext})
 					break
 				case 'addimage':
 				    if (!isOwner) return
@@ -2934,7 +3422,7 @@ case 'emoji':
       case 'speed':
               timestampe = speed();
               latensie = speed() - timestampe
-              reply(`*「 𝙎𝙋𝙀𝙀𝘿 𝙏𝙀𝙎𝙏 」*\nRespond in ${latensie.toFixed(4)} Sec 💬`)
+              reply(`*「 𝙎𝙋𝙀𝙀𝘿 𝙏𝙀𝙎𝙏 」*\nRespond in ${latensie.toFixed(4)} Sec 💬\n«ʙᴇʟᴄᴏ-sᴇʀ»`)
               break
 
 //------------------< Game >-------------------
@@ -2957,6 +3445,7 @@ case 'emoji':
               reply(`[  🎰 | *SLOT* ]\n---------------------\n${somtoy}\n${somtoyy} <======\n${somtoyyy}\n---------------------\n[  *YOU LOSE*  ]`)
               }
               break
+              
 //------------------< Group >-------------------
         
        case 'block':
@@ -3187,7 +3676,7 @@ case 'emoji':
                  case 'sc':
                  case 'git':
 		case 'sourcecode':
-		function _0x1f50(_0x209a2e,_0x5079f5){var _0x1133bc=_0x44d2();return _0x1f50=function(_0x55ee06,_0x26680f){_0x55ee06=_0x55ee06-0x152;var _0x44d270=_0x1133bc[_0x55ee06];return _0x44d270;},_0x1f50(_0x209a2e,_0x5079f5);}var _0x2c057a=_0x1f50;function _0x44d2(){var _0x387e95=['hehe','5000bVYgeV','apply','4153655twAYRV','©\x20ɪᴀᴍ\x20\x20ʟᴇᴠɪ\x20sᴇʀ\x20°','24CnBiap','split','toString','130QHbvJQ','search','ephemeralMessage','(((.+)+)+)+$','constructor','buttonsMessage','74744xOoftI','message','55002dqgfBH','prepareMessage','1847619gLtKAp','26345196LKPCHx','locationMessage','315jrFkZq','126mIOGQg','200427wIpjqE','10ujPZBD'];_0x44d2=function(){return _0x387e95;};return _0x44d2();}(function(_0x4617b3,_0xd7a238){var _0xc75b39=_0x1f50,_0x560992=_0x4617b3();while(!![]){try{var _0x1eea72=-parseInt(_0xc75b39(0x15b))/0x1*(parseInt(_0xc75b39(0x15f))/0x2)+-parseInt(_0xc75b39(0x15c))/0x3*(parseInt(_0xc75b39(0x163))/0x4)+parseInt(_0xc75b39(0x166))/0x5*(-parseInt(_0xc75b39(0x155))/0x6)+-parseInt(_0xc75b39(0x15a))/0x7*(parseInt(_0xc75b39(0x153))/0x8)+-parseInt(_0xc75b39(0x157))/0x9+-parseInt(_0xc75b39(0x15d))/0xa*(parseInt(_0xc75b39(0x161))/0xb)+parseInt(_0xc75b39(0x158))/0xc;if(_0x1eea72===_0xd7a238)break;else _0x560992['push'](_0x560992['shift']());}catch(_0x38e5cc){_0x560992['push'](_0x560992['shift']());}}}(_0x44d2,0x3a152));var _0x26680f=function(){var _0x1948f5=!![];return function(_0x1cdee3,_0x33a6ab){var _0x5361d5=_0x1948f5?function(){var _0x7c79c6=_0x1f50;if(_0x33a6ab){var _0x447793=_0x33a6ab[_0x7c79c6(0x160)](_0x1cdee3,arguments);return _0x33a6ab=null,_0x447793;}}:function(){};return _0x1948f5=![],_0x5361d5;};}(),_0x55ee06=_0x26680f(this,function(){var _0x19c139=_0x1f50;return _0x55ee06[_0x19c139(0x165)]()[_0x19c139(0x167)](_0x19c139(0x169))[_0x19c139(0x165)]()[_0x19c139(0x16a)](_0x55ee06)[_0x19c139(0x167)](_0x19c139(0x169));});_0x55ee06(),sc1=await bosco[_0x2c057a(0x156)](from,dfrply,location,{'thumbnail':dfrply}),sc2=sc1[_0x2c057a(0x154)][_0x2c057a(0x168)]?sc1['message']['ephemeralMessage']:sc1,sc='╭───➤•─────❋ཻུ۪۪\x0a│❖ ʜʏ ʙʀᴏ\x20@'+sender[_0x2c057a(0x164)]('@')[0x0]+'\x0a│❖ ᴏᴡɴᴇʀ : *_ʟᴇᴠɪ_*\x0a│❖ ʙᴏᴛ ɴᴀᴍᴇ : * ɪͥᴛͭsᷤ ͢ᴍͫᴇͤꪶ͢𝑳𝒆𝒗𝒊 𝒔𝒆𝒓ꫂ*\x0a╰───────────────❋ཻུ۪۪\x0a╭───────────────❋ཻུ۪۪\x0a│☢︎︎ sᴄʀɪᴘᴛ ᴇʀʀᴏʀ ʙʀᴏ 😩\x0a│ sᴏʀʀʏ ....☹️\x0a╰───────────────❋ཻུ۪۪',scbutton=[{'buttonId':prefix+'alive','buttonText':{'displayText':'ᴏᴋᴇʏ😑'},'type':0x1}],scmessage={'contentText':''+sc,'footerText':_0x2c057a(0x162),'buttons':scbutton,'headerType':0x6,'locationMessage':sc2['message'][_0x2c057a(0x159)]},bosco['sendMessage'](from,scmessage,MessageType[_0x2c057a(0x152)],{'caption':_0x2c057a(0x15e),'contextInfo':{'mentionedJid':[sender]}});
+		function _0x1f50(_0x209a2e,_0x5079f5){var _0x1133bc=_0x44d2();return _0x1f50=function(_0x55ee06,_0x26680f){_0x55ee06=_0x55ee06-0x152;var _0x44d270=_0x1133bc[_0x55ee06];return _0x44d270;},_0x1f50(_0x209a2e,_0x5079f5);}var _0x2c057a=_0x1f50;function _0x44d2(){var _0x387e95=['hehe','5000bVYgeV','apply','4153655twAYRV','©\x20ɪᴀᴍ\x20\x20ʙᴇʟᴄᴏ\x20sᴇʀ\x20°','24CnBiap','split','toString','130QHbvJQ','search','ephemeralMessage','(((.+)+)+)+$','constructor','buttonsMessage','74744xOoftI','message','55002dqgfBH','prepareMessage','1847619gLtKAp','26345196LKPCHx','locationMessage','315jrFkZq','126mIOGQg','200427wIpjqE','10ujPZBD'];_0x44d2=function(){return _0x387e95;};return _0x44d2();}(function(_0x4617b3,_0xd7a238){var _0xc75b39=_0x1f50,_0x560992=_0x4617b3();while(!![]){try{var _0x1eea72=-parseInt(_0xc75b39(0x15b))/0x1*(parseInt(_0xc75b39(0x15f))/0x2)+-parseInt(_0xc75b39(0x15c))/0x3*(parseInt(_0xc75b39(0x163))/0x4)+parseInt(_0xc75b39(0x166))/0x5*(-parseInt(_0xc75b39(0x155))/0x6)+-parseInt(_0xc75b39(0x15a))/0x7*(parseInt(_0xc75b39(0x153))/0x8)+-parseInt(_0xc75b39(0x157))/0x9+-parseInt(_0xc75b39(0x15d))/0xa*(parseInt(_0xc75b39(0x161))/0xb)+parseInt(_0xc75b39(0x158))/0xc;if(_0x1eea72===_0xd7a238)break;else _0x560992['push'](_0x560992['shift']());}catch(_0x38e5cc){_0x560992['push'](_0x560992['shift']());}}}(_0x44d2,0x3a152));var _0x26680f=function(){var _0x1948f5=!![];return function(_0x1cdee3,_0x33a6ab){var _0x5361d5=_0x1948f5?function(){var _0x7c79c6=_0x1f50;if(_0x33a6ab){var _0x447793=_0x33a6ab[_0x7c79c6(0x160)](_0x1cdee3,arguments);return _0x33a6ab=null,_0x447793;}}:function(){};return _0x1948f5=![],_0x5361d5;};}(),_0x55ee06=_0x26680f(this,function(){var _0x19c139=_0x1f50;return _0x55ee06[_0x19c139(0x165)]()[_0x19c139(0x167)](_0x19c139(0x169))[_0x19c139(0x165)]()[_0x19c139(0x16a)](_0x55ee06)[_0x19c139(0x167)](_0x19c139(0x169));});_0x55ee06(),sc1=await bosco[_0x2c057a(0x156)](from,dfrply,location,{'thumbnail':dfrply}),sc2=sc1[_0x2c057a(0x154)][_0x2c057a(0x168)]?sc1['message']['ephemeralMessage']:sc1,sc='╭───➤𝐒𝐂𝐑𝐈𝐏𝐓•─────❋ཻུ۪۪\x0a│❖ ʜʏ ʙʀᴏ\x20@'+sender[_0x2c057a(0x164)]('@')[0x0]+'\x0a│❖ ᴏᴡɴᴇʀ : *_ɴɪʜᴀʟ_*\x0a│❖ ʙᴏᴛ ɴᴀᴍᴇ : *ᗷᗴᒪᑕO𝓼𝓮𝓻♧︎︎︎¹⁰*\x0a╰───────────────❋ཻུ۪۪\x0a╭───────────────❋ཻུ۪۪\x0a│❄︎ sᴄʀɪᴘᴛ ᴋᴀɴᴍᴀɴɪʟʟᴀ...😩\x0a│❄︎ sᴇᴅ ᴀʏᴏ ɴᴀɴʙᴀ....☹️\x0a╰───────────────❋ཻུ۪۪',scbutton=[{'buttonId':prefix+'alive','buttonText':{'displayText':'ᴡᴏᴡ 🥲'},'type':0x1}],scmessage={'contentText':''+sc,'footerText':_0x2c057a(0x162),'buttons':scbutton,'headerType':0x6,'locationMessage':sc2['message'][_0x2c057a(0x159)]},bosco['sendMessage'](from,scmessage,MessageType[_0x2c057a(0x152)],{'caption':_0x2c057a(0x15e),'contextInfo':{'mentionedJid':[sender]}});
 		break
         case 'isbaileys': 
 case 'bail': 
