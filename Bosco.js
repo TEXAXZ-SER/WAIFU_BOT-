@@ -1332,8 +1332,9 @@ menubutton = [{buttonId:`git tha`,buttonText:{displayText:'ɢɪᴛ ᴛʜᴀ🐦'
 5. 𝙰𝙽𝚈 𝙿𝚁𝙾𝙱𝙻𝙰𝙼 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 *𝙻𝙴𝚅𝙸 𝚂𝙴𝚁♧︎︎︎*
 
 𝚘𝚠𝚗𝚎𝚛: wa.me/918139092699`
-       osk = bosco.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 101010 "message": `${rules1}`, "footerText": "hehe", "thumbnail": denis, "surface": 'CATALOG'}}, {quoted: mek})
+       osk = bosco.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 101010, "message": `${rules1}`, "footerText": "hehe", "thumbnail": denis, "surface": 'CATALOG'}}, {quoted: mek})
             bosco.relayWAMessage(osk)
+             
        break
    case 'credits':
    bosco1 = await bosco.prepareMessage(from, denis, location, {thumbnail: denis})
