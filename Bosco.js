@@ -1309,7 +1309,7 @@ teks = `╭─[ *𝙲𝚁𝙴𝙰𝚃𝙾𝚁 - 𝙸𝙽𝙵𝙾* ]──𖣔
 
 ⌕ ❙❘❙❙❚❙❘❙❙❘❙❘❙❚❙❘❙❙❘❙❚❙➪ɪ ᴀᴍ ʟᴇᴠɪ sᴇʀ ☆
 ` 
-menubutton = [{buttonId:`git tha`,buttonText:{displayText:'ɢɪᴛ ᴛʜᴀ 🐦},type:1},
+menubutton = [{buttonId:`git tha`,buttonText:{displayText:'ɢɪᴛ ᴛʜᴀ🐦'},type:1},
                    {buttonId:`${prefix}owner`,buttonText:{displayText:'ᴏᴡɴᴇʀ🍃'},type:1}
 ]
  menumessage = { contentText: `${teks}`, footerText: `© ༱ꪶ͢𝑳𝒆𝒗𝒊 𝒔𝒆𝒓ꫂ࿏༢`, buttons: menubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
@@ -1339,7 +1339,7 @@ menubutton = [{buttonId:`git tha`,buttonText:{displayText:'ɢɪᴛ ᴛʜᴀ 🐦
    bosco1 = await bosco.prepareMessage(from, denis, location, {thumbnail: denis})
               bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
 teks = `
-𖣔─ *[ 𝙻𝙴𝚅𝙸 𝚂𝙲𝚁𝙴𝙳𝙸𝚃𝚂 𝙱𝚈...]* ─𖣔
+𖣔─ *[ 𝙻𝙴𝚅𝙸 𝙲𝚁𝙴𝙳𝙸𝚃𝚂 𝙱𝚈...]* ─𖣔
 
              ʙᴇʟᴄᴏ sᴇʀ
                     ˣ
