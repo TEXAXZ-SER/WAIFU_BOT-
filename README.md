@@ -77,4 +77,4 @@ npm install
 npm update
 npm start
 ```
-## A PUBLIC BOT BY KRISHNADAS
+## A PUBLIC BOT BY LEVI SER
