@@ -15,7 +15,7 @@
 <p align="center">
  <a href="https://github.com/LEVIsir"><img title="Author" src="https://img.shields.io/badge/Author-LEVI-blue.svg?style=for-the-badge&logo=github" /></a>  <a href="https://Wa.me/+918139092699?text=Hello%20LEVI%20Bro🌝...fen%20boi%20aan😌💝"><img title="Author" src="https://img.shields.io/badge/Owner-LEVI-blue.svg?style=for-the-badge&logo=whatsapp" /></a>
 <p align="center">
-<a href="https://chat.whatsapp.com/IwOZg4VGdJq4lTH12aPOzc"><img title="Author" src="https://img.shields.io/badge/Watsapp-Group-blue.svg?style=for-the-badge&logo=whatsapp" /></a> <a href="https://instagram.com/am_jr_nihal"><img title="Author" src="https://img.shields.io/badge/Instagram-am_jr_nihal-violet.svg?style=for-the-badge&logo=Instagram" /></a>
+<a href="https://chat.whatsapp.com/IwOZg4VGdJq4lTH12aPOzc"><img title="Author" src="https://img.shields.io/badge/Watsapp-Group-blue.svg?style=for-the-badge&logo=whatsapp" /></a> <a href="https://instagram.com/am_jr_nihal"><img title="Author" src="https://img.shields.io/badge/Instagram-LEVI x BELCO-violet.svg?style=for-the-badge&logo=Instagram" /></a>
 </p>
 
 
