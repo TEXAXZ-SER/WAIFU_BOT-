@@ -1,19 +1,19 @@
-#### BELCO - SER - OFC 
+#### LEVI - SER - OFC 
 
 
 
 <div align="center">
-<img src="ds.jpg" alt="BELCO" width="170" />
+<img src="ds.jpg" alt="LEVI" width="170" />
 
 ## LEVI SER 🌝💝
 
 </div>
 
 <p align="center">
-<a href="##"><img title="" src="BELCO-BOT-V1?label=Language&message=English&color=blue"></a>
+<a href="##"><img title="" src="LEVI-BOT-V1?label=Language&message=English&color=blue"></a>
 </p>
 <p align="center">
- <a href="https://github.com/BELCOsir"><img title="Author" src="https://img.shields.io/badge/Author-BELCO-blue.svg?style=for-the-badge&logo=github" /></a>  <a href="https://Wa.me/+919567941560?text=Hello%20BELCO%20Bro🌝...fen%20boi%20aan😌💝"><img title="Author" src="https://img.shields.io/badge/Owner-BELCO-blue.svg?style=for-the-badge&logo=whatsapp" /></a>
+ <a href="https://github.com/LEVIsir"><img title="Author" src="https://img.shields.io/badge/Author-LEVI-blue.svg?style=for-the-badge&logo=github" /></a>  <a href="https://Wa.me/+918139092699?text=Hello%20LEVI%20Bro🌝...fen%20boi%20aan😌💝"><img title="Author" src="https://img.shields.io/badge/Owner-LEVI-blue.svg?style=for-the-badge&logo=whatsapp" /></a>
 <p align="center">
 <a href="https://chat.whatsapp.com/IwOZg4VGdJq4lTH12aPOzc"><img title="Author" src="https://img.shields.io/badge/Watsapp-Group-blue.svg?style=for-the-badge&logo=whatsapp" /></a> <a href="https://instagram.com/am_jr_nihal"><img title="Author" src="https://img.shields.io/badge/Instagram-am_jr_nihal-violet.svg?style=for-the-badge&logo=Instagram" /></a>
 </p>
